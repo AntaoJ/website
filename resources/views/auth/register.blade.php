@@ -38,8 +38,10 @@
 						<input class="input100" type="password" name="password" placeholder="password">
 
 					</div>
+                    <div class="wrap-input100 validate-input" data-validate="Password is required">
+						<input class="input100" type="password" name="password_confirmation" placeholder="password">
 
-
+					</div>
 
 					<div class="container-login100-form-btn">
 						<button type="submit" class="login100-form-btn">
