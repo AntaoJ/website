@@ -29,4 +29,8 @@ class HomeController extends Controller
     {
         return view('faq');
     }
+    public function onde()
+    {
+        return view('atuamos');
+    }
 }

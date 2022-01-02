@@ -115,7 +115,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/kanban.html" class="nav-link">
+                            <a href="/onde" class="nav-link">
                                 <i class="nav-icon fas fa-map-marked-alt"></i>
                                 <p>
                                     Onde Atuamos?
