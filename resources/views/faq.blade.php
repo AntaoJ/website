@@ -40,16 +40,16 @@
                 </div>
               
                 <div class="panel panel-default">
-                    <div class="panel-heading p-3 mb-3" role="tab" id="1">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="2">
                         <h3 class="panel-title">
                             <a class="collapsed colorti" role="button" title="" data-toggle="collapse"
-                                data-parent="#accordion" href="#collapse1" aria-expanded="true"
-                                aria-controls="collapse1">
+                                data-parent="#accordion" href="#collapse2" aria-expanded="true"
+                                aria-controls="collapse2">
                                 Titullooocgvh rrdftgh
                             </a>
                         </h3>
                     </div>
-                    <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading16">
+                    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading16">
                         <div class="panel-body px-3 mb-4">
                             <p>sxdcfvgbhnjmkc fgvbnfc fvbnm
 
@@ -60,16 +60,16 @@
                 </div>
       
                 <div class="panel panel-default">
-                    <div class="panel-heading p-3 mb-3" role="tab" id="1">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="3">
                         <h3 class="panel-title">
                             <a class="collapsed colorti" role="button" title="" data-toggle="collapse"
-                                data-parent="#accordion" href="#collapse1" aria-expanded="true"
-                                aria-controls="collapse1">
+                                data-parent="#accordion" href="#collapse3" aria-expanded="true"
+                                aria-controls="collapse3">
                                 Titullooocgvh rrdftgh
                             </a>
                         </h3>
                     </div>
-                    <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading16">
+                    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading16">
                         <div class="panel-body px-3 mb-4">
                             <p>sxdcfvgbhnjmkc fgvbnfc fvbnm
 
