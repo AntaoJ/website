@@ -90,25 +90,7 @@
                                         <div class="container ml-10 mr-10">
                                             <div class="row ">
 
-                                                <a class="share mx-auto" style="color: grey !important;"
-                                                    data-toggle="modal" data-target=".bd-example-modal-lg">
-                                                    <span class="mdi mdi-link-variant" style="font-size:400%;"> </span>
-                                                </a>
-                                                <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
-                                                    aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                                                    <div class="modal-dialog modal-dialog-centered modal-lg">
-                                                        <div class="modal-content cpydiv shadow"
-                                                            style="border-color:white;border-radius:30px;color:grey">
-
-                                                            <p class="container copy mx-auto"
-                                                                style="font-family:'Myriad Pro 1';font-size:auto;text-align:center;color:grey;margin-top:2%;margin-bottom:2%;">
-                                                                <?php echo 'https://20mediar.pt/?invite=hexnhjheduhu34498um8u-c5588';?>
-                                                            </p>
-
-
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                
                                                 <a class="share mx-auto" style="color: #0077b5 !important;"
                                                     href="https://www.linkedin.com/sharing/share-offsite/?url=<?php echo 'https://20mediar.pt/?invite=hexnhjheduhu34498um8u-c5588';?>">
                                                     <span class="mdi mdi-linkedin" style="font-size:400%;"> </span>
