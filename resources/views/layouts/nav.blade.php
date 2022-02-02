@@ -53,7 +53,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
-                        <img src="img/1600522766229.jpg" style="height:1.5rem" class="img-circle elevation-2"
+                        <img src="img/profile.png" style="height:1.5rem" class="img-circle elevation-2"
                             alt="User Image">
                     </a>
                 </li>
@@ -74,7 +74,7 @@
                 <!-- Sidebar user panel (optional) -->
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="img/1600522766229.jpg" class="img-circle elevation-2" alt="User Image">
+                        <img src="img/profile.png" class="img-circle elevation-2" alt="User Image">
                     </div>
                     <div class="info">
                         <a href="#" class="d-block">{{Auth::user()->name}}</a>
