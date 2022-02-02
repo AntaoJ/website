@@ -1,1 +1,1 @@
-<p>TESTE $data['descricao']</p>
+<p>TESTE {{$data['descricao']}}</p>
