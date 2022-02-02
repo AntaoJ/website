@@ -22,4 +22,7 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/faq', [App\Http\Controllers\HomeController::class, 'faq'])->name('faq');
 Route::get('/onde', [App\Http\Controllers\HomeController::class, 'onde'])->name('onde');
+Route::post('/sendemail/send', [App\Http\Controllers\SendEmailController::class, 'send'])->name('send');
+
+
 

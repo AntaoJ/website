@@ -136,28 +136,29 @@
                         </div><!-- /.card-header -->
                         <div class="card-body">
                             <div class="tab-content p-0">
-                                <form class="form-card" onsubmit="event.preventDefault()">
+                                <form class="form-card" method="post" action="{{ url('sendemail/send') }}">
+                                    {{ csrf_field() }}
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-12 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Localidade<span class="text-danger">
-                                                    *</span></label> <input type="text" id="ans" name="ans"
+                                                    *</span></label> <input type="text" id="ans" name="localidade"
                                                 placeholder="" onblur="validate(6)"> </div>
                                     </div>
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Natureza<span class="text-danger">
-                                                    *</span></label> <input type="text" id="fname" name="fname"> </div>
+                                                    *</span></label> <input type="text" id="fname" name="natureza"> </div>
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Tipologia<span class="text-danger">
-                                                    *</span></label> <input type="text" id="lname" name="lname"> </div>
+                                                    *</span></label> <input type="text" id="lname" name="tipologia"> </div>
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Valor<span class="text-danger">
-                                                    *</span></label> <input type="text" id="lname" name="lname"> </div>
+                                                    *</span></label> <input type="text" id="lname" name="valor"> </div>
                                     </div>
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-12 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Descrição</label><textarea id="txtArea"
-                                                rows="6"></textarea> </div>
+                                                rows="6" name="descricao"></textarea> </div>
                                     </div>
 
                                     <div class="row justify-content-end">
