@@ -21,6 +21,15 @@
     <div class="limiter">
         <div class="container-login100">
             <div class="wrap-login100">
+                @if ($errors->any())
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+                @endif
                 <form method="POST" action="{{ route('register') }}" class="login100-form validate-form">
                     @csrf
 
@@ -64,7 +73,8 @@
 
                     <div class="flex-sb-m w-full" style="margin-top:2rem;">
                         <div>
-                            <a data-toggle="modal" data-target="#modal" style="cursor: pointer;">Conheça todas as vantagens de estar
+                            <a data-toggle="modal" data-target="#modal" style="cursor: pointer;">Conheça todas as
+                                vantagens de estar
                                 registado</a>
                         </div>
 
@@ -74,7 +84,8 @@
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-								<span class="login100-form-title p-b-20" style="font-weight:bold;">Com a 20Mediar todos ganham!</span>
+                                    <span class="login100-form-title p-b-20" style="font-weight:bold;">Com a 20Mediar
+                                        todos ganham!</span>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
