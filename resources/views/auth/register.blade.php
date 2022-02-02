@@ -28,6 +28,14 @@
                     <div class="wrap-input100" >
 						<input class="input100" type="text" name="name" placeholder="Nome completo">
 					</div>
+
+					<div class="wrap-input100" >
+						<input class="input100" type="text" name="telemovel" placeholder="Telemovel">
+					</div>
+
+					<div class="wrap-input100" >
+						<input class="input100" type="text" name="local" placeholder="Localidade">
+					</div>
                 
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
 						<input class="input100" type="text" name="email" placeholder="Email">
@@ -40,7 +48,6 @@
 					</div>
                     <div class="wrap-input100 validate-input" data-validate="Password is required">
 						<input class="input100" type="password" name="password_confirmation" placeholder="password">
-
 					</div>
 
 					<div class="container-login100-form-btn">
