@@ -20,10 +20,19 @@
 			<div class="wrap-login100">
 				<form method="POST" action="{{ route('register') }}" class="login100-form validate-form">
                     @csrf
-                    <img src="img/20MediarPreto.jpeg" style="height:6rem;" alt="">
-					<span class="login100-form-title p-b-43">
-						Novo por aqui?
-					</span>
+					
+                    <img src="img/20MediarPreto.png"
+                        style="height:6rem;display: block;margin-left: auto;margin-right: 55%" alt="">
+                    <span class="login100-form-title p-b-30" style="font-weight:bold;">
+                        Novo por aqui!
+                    </span>
+                    <p style="width:70%;text-align: justify;">
+					Como cliente, ao vender o seu imóvel, será reembolsado de parte da <b>comissão imobiliária</b> acordada entre as partes. <br> 
+                    Ao enviar o <b>link de convite</b> ao seu <b>círculo de amigos</b> será recompensado(a) com uma <b>percentagem da comissão</b> originada por cada transação realizada por eles. <br>
+                    Saiba como <b>beneficiar-se</b> do <b>marketing de influência</b>!<br>
+                    <b>Com a 20Mediar todos ganham!</b><br><br>
+                    </p>
+
 
                     <div class="wrap-input100" >
 						<input class="input100" type="text" name="name" placeholder="Nome completo">
@@ -43,11 +52,11 @@
 
 
 					<div class="wrap-input100 validate-input" data-validate="Password is required">
-						<input class="input100" type="password" name="password" placeholder="password">
+						<input class="input100" type="password" name="password" placeholder="Password">
 
 					</div>
                     <div class="wrap-input100 validate-input" data-validate="Password is required">
-						<input class="input100" type="password" name="password_confirmation" placeholder="password">
+						<input class="input100" type="password" name="password_confirmation" placeholder="Confirmar Password">
 					</div>
 
 					<div class="container-login100-form-btn">
