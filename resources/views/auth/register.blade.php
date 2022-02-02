@@ -4,6 +4,7 @@
 <head>
     <title>20 Mediar</title>
     <meta charset="UTF-8">
+	<link rel="shortcut icon" href="https://20mediar.pt/img/20MediarPreto.jpeg" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
     <!--===============================================================================================-->
