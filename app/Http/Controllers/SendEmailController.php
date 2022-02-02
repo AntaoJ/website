@@ -19,6 +19,6 @@ class SendEmailController extends Controller
         $data = array(
         'descricao' =>$request->descricao
         );
-        Mail::to('david.g.leal00@gmail.com')-> send(new SendMail($data));
+        Mail::to('david.g.leal00@gmail.com')-> send(new SendEmail($data));
     }
 }
