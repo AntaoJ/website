@@ -16,7 +16,7 @@ class SendEmailController extends Controller
             'valor'        =>  'required',
             'descricao'    =>  'required',
         ]);
-        $data = array(
+        $data = array( 
             'descricao' =>$request->descricao
         );
  
