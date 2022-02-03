@@ -46,6 +46,7 @@ class SendEmailController extends Controller
             'tipologia'    =>  $request->tipologia,
             'orcamento'    =>  $request->orcamento,
             'nome'         =>  $request->nome,
+            'descricao'    =>  $request->descricao,
             'email'        =>  $request->email,
         );
         Mail::to('geral@20mediar.pt')-> send(new SendEmailAdminC($data));
