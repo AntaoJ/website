@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
-use App\Mail\SendEmail;
+use App\Mail\VendoImovel;
 
 class SendEmailController extends Controller
 {
@@ -15,11 +15,19 @@ class SendEmailController extends Controller
             'tipologia'    =>  'required',
             'valor'        =>  'required',
             'descricao'    =>  'required',
+            'nome'         =>  'nome',
+            'email'        =>  'email',
         ]);
         $data = array( 
-            'descricao' =>$request->descricao
+            'localidade'   =>  $request->localidade,
+            'natureza'     =>  $request->natureza,
+            'tipologia'    =>  $request->tipologia,
+            'valor'        =>  $request->valor,
+            'descricao'    =>  $request->descricao,
+            'nome'         =>  $request->nome,
+            'email'        =>  $request->email,
         );
  
-        Mail::to('david.g.leal00@gmail.com')-> send(new SendEmail($data));
+        Mail::to('david.g.leal00@gmail.com')-> send(new VendoImovel($data));
     }
 }

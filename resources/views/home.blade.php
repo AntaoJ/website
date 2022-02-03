@@ -160,6 +160,16 @@
                                                 class="form-control-label px-3">Descrição</label><textarea id="txtArea"
                                                 rows="6" name="descricao"></textarea> </div>
                                     </div>
+                                    <div class="row justify-content-between text-left" style="display:none;">
+                                        <div class="form-group col-12 flex-column d-flex"> <label
+                                                class="form-control-label px-3"></label><textarea id="txtArea"
+                                                rows="6" name="nome"></textarea> </div>
+                                    </div>
+                                    <div class="row justify-content-between text-left" style="display:none;">
+                                        <div class="form-group col-12 flex-column d-flex"> <label
+                                                class="form-control-label px-3"></label><textarea id="txtArea"
+                                                rows="6" name="email"></textarea> </div>
+                                    </div>
 
                                     <div class="row justify-content-end">
                                         <div class="form-group col-sm-6"> <button type="submit"
