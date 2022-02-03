@@ -160,7 +160,12 @@
                                                 class="form-control-label px-3">Descrição</label><textarea id="txtArea"
                                                 rows="6" name="descricao"></textarea> </div>
                                     </div>
-                                    
+                                    <div style="display:none;"><input type="text" id="lname" name="nome"
+                                            value="{{Auth::user()->name}}"> </div>
+
+                                    <div style="display:none;"><input type="text" id="lname" name="nome"
+                                            value="{{Auth::user()->email}}"> </div>
+
 
                                     <div class="row justify-content-end">
                                         <div class="form-group col-sm-6"> <button type="submit"
