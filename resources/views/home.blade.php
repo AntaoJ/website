@@ -125,6 +125,21 @@
                 </section>
             </div>
             <div class="row">
+                @if ($errors->any())
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+                @endif
+                @if (Session::get('success'))
+                <div class="alert alert-success alert-block">
+                    <button type="button" class="close" data-dismiss="alert">+</button>
+                    <strong>{{Session::get('success')}}</strong>
+                </div>
+                @endif
                 <!-- Left col -->
                 <div class="col-lg-6 col-md-6 col-sm-12 connectedSortable">
                     <!-- Custom tabs (Charts with tabs)-->
@@ -137,21 +152,7 @@
                         </div><!-- /.card-header -->
                         <div class="card-body">
                             <div class="tab-content p-0">
-                                @if ($errors->any())
-                                <div class="alert alert-danger">
-                                    <ul>
-                                        @foreach ($errors->all() as $error)
-                                        <li>{{ $error }}</li>
-                                        @endforeach
-                                    </ul>
-                                </div>
-                                @endif
-                                @if (Session::get('success'))
-                                    <div class="alert alert-success alert-block">
-                                        <button type="button" class="close" data-dismiss="alert">+</button>
-                                        <strong>{{Session::get('success')}}</strong>
-                                    </div>
-                                @endif
+
                                 <form class="form-card" method="post" action="{{ url('sendemail/send') }}">
                                     {{ csrf_field() }}
                                     <div class="row justify-content-between text-left">
