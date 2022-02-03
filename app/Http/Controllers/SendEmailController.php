@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
-use App\Mail\VendoImovel;
+use App\Mail\VendoImovelU;
 
 class SendEmailController extends Controller
 {
@@ -28,6 +28,6 @@ class SendEmailController extends Controller
             'email'        =>  $request->email,
         );
  
-        Mail::to('david.g.leal00@gmail.com')-> send(new VendoImovel($data));
+        Mail::to('david.g.leal00@gmail.com')-> send(new VendoImovelU($data));
     }
 }
