@@ -85,7 +85,7 @@
                                             style="border-color:1px solid black;border-radius:10px;color:grey;width:auto;">
                                             <p class="container copy mx-auto"
                                                 style="font-family:'Myriad Pro 1';font-size:auto;text-align:center;color:grey;margin-top:2%;margin-bottom:2%;">
-                                                https://20mediar.pt/?invite=hexnhjheduhu34498um8u-c5588
+                                                https://20mediar.pt/?invite={{Auth::user()->uuid}}
                                             </p>
                                         </div>
                                         <div class="container ml-10 mr-10">
