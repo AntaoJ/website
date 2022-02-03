@@ -28,6 +28,6 @@ class SendEmailController extends Controller
             'email'        =>  $request->email,
         );
  
-        Mail::to('david.g.leal00@gmail.com')-> send(new VendoImovelU($data));
+        Mail::to($data['email'])-> send(new VendoImovelU($data));
     }
 }
