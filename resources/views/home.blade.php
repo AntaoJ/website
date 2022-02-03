@@ -163,72 +163,74 @@
                                                 class="form-control-label px-3">Descrição</label><textarea id="txtArea"
                                                 rows="6" name="descricao"></textarea> </div>
                                     </div>
-                                    <div  style="display:none;"><input type="text" id="lname" name="nome"
+                                    <div style="display:none;"><input type="text" id="lname" name="nome"
                                             value="{{Auth::user()->name}}"> </div>
-                            </div>
-                            <div style="display:none;"><input type="text" id="lname" name="nome"
-                                    value="{{Auth::user()->email}}"> </div>
-                        </div>
 
-                        <div class="row justify-content-end">
-                            <div class="form-group col-sm-6"> <button type="submit" class="login100-form-btn">
-                                    Submeter
-                                </button> </div>
-                        </div>
-                        </form>
+                                    <div style="display:none;"><input type="text" id="lname" name="nome"
+                                            value="{{Auth::user()->email}}"> </div>
+
+
+                                    <div class="row justify-content-end">
+                                        <div class="form-group col-sm-6"> <button type="submit"
+                                                class="login100-form-btn">
+                                                Submeter
+                                            </button> </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div><!-- /.card-body -->
                     </div>
-                </div><!-- /.card-body -->
-            </div>
-            <!-- /.card -->
-        </div>
-        <!-- Left col -->
-        <div class="col-lg-6 col-md-6 col-sm-12 connectedSortable">
-            <!-- Custom tabs (Charts with tabs)-->
-            <div class="card">
-                <div class="card-header">
-                    <h4 style="font-weight:bold">
-                        Pretende comprar um imóvel?
-                    </h4>
-                    <p>Terá direito a parte da comissão imobiliária</p>
-                </div><!-- /.card-header -->
-                <div class="card-body">
-                    <div class="tab-content p-0">
-                        <form class="form-card" onsubmit="event.preventDefault()">
-                            <div class="row justify-content-between text-left">
-                                <div class="form-group col-12 flex-column d-flex"> <label
-                                        class="form-control-label px-3">Localização<span class="text-danger">
-                                            *</span></label> <input type="text" id="ans" name="ans" placeholder=""
-                                        onblur="validate(6)"> </div>
-                            </div>
-                            <div class="row justify-content-between text-left">
-                                <div class="form-group col-sm-6 flex-column d-flex"> <label
-                                        class="form-control-label px-3">Orçamento<span class="text-danger">
-                                            *</span></label> <input type="text" id="fname" name="fname"> </div>
-                                <div class="form-group col-sm-6 flex-column d-flex"> <label
-                                        class="form-control-label px-3">Tipologia<span class="text-danger">
-                                            *</span></label> <input type="text" id="lname" name="lname"> </div>
+                    <!-- /.card -->
+                </div>
+                <!-- Left col -->
+                <div class="col-lg-6 col-md-6 col-sm-12 connectedSortable">
+                    <!-- Custom tabs (Charts with tabs)-->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 style="font-weight:bold">
+                                Pretende comprar um imóvel?
+                            </h4>
+                            <p>Terá direito a parte da comissão imobiliária</p>
+                        </div><!-- /.card-header -->
+                        <div class="card-body">
+                            <div class="tab-content p-0">
+                                <form class="form-card" onsubmit="event.preventDefault()">
+                                    <div class="row justify-content-between text-left">
+                                        <div class="form-group col-12 flex-column d-flex"> <label
+                                                class="form-control-label px-3">Localização<span class="text-danger">
+                                                    *</span></label> <input type="text" id="ans" name="ans"
+                                                placeholder="" onblur="validate(6)"> </div>
+                                    </div>
+                                    <div class="row justify-content-between text-left">
+                                        <div class="form-group col-sm-6 flex-column d-flex"> <label
+                                                class="form-control-label px-3">Orçamento<span class="text-danger">
+                                                    *</span></label> <input type="text" id="fname" name="fname"> </div>
+                                        <div class="form-group col-sm-6 flex-column d-flex"> <label
+                                                class="form-control-label px-3">Tipologia<span class="text-danger">
+                                                    *</span></label> <input type="text" id="lname" name="lname"> </div>
 
-                            </div>
-                            <div class="row justify-content-between text-left">
-                                <div class="form-group col-12 flex-column d-flex"> <label
-                                        class="form-control-label px-3">Descreva-nos o que
-                                        procura</label><textarea id="txtArea" rows="6"></textarea> </div>
-                            </div>
+                                    </div>
+                                    <div class="row justify-content-between text-left">
+                                        <div class="form-group col-12 flex-column d-flex"> <label
+                                                class="form-control-label px-3">Descreva-nos o que
+                                                procura</label><textarea id="txtArea" rows="6"></textarea> </div>
+                                    </div>
 
-                            <div class="row justify-content-end">
-                                <div class="form-group col-sm-6"> <button type="submit" class="login100-form-btn">
-                                        Submeter
-                                    </button> </div>
+                                    <div class="row justify-content-end">
+                                        <div class="form-group col-sm-6"> <button type="submit"
+                                                class="login100-form-btn">
+                                                Submeter
+                                            </button> </div>
+                                    </div>
+                                </form>
                             </div>
-                        </form>
+                        </div><!-- /.card-body -->
                     </div>
-                </div><!-- /.card-body -->
-            </div>
-            <!-- /.card -->
-        </div>
-        <!-- /.Left col -->
-</div><!-- /.container-fluid -->
-</section>
+                    <!-- /.card -->
+                </div>
+                <!-- /.Left col -->
+            </div><!-- /.container-fluid -->
+    </section>
 
 
 </div>
