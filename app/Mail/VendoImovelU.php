@@ -29,7 +29,7 @@ class VendoImovelU extends Mailable
      */
     public function build()
     {
-        return $this->from('20Mediar')
+        return $this->from('geral@20mediar.pt')
                     ->subject('20Mediar - Vendo Imóvel')
                     ->view('vendaImovel')
                     ->with('data', $this->data);
