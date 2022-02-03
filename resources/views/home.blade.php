@@ -124,8 +124,7 @@
                     <!-- /.card -->
                 </section>
             </div>
-            <div class="row">
-                @if ($errors->any())
+            @if ($errors->any())
                 <div class="alert alert-danger">
                     <ul>
                         @foreach ($errors->all() as $error)
@@ -140,6 +139,8 @@
                     <strong>{{Session::get('success')}}</strong>
                 </div>
                 @endif
+            <div class="row">
+                
                 <!-- Left col -->
                 <div class="col-lg-6 col-md-6 col-sm-12 connectedSortable">
                     <!-- Custom tabs (Charts with tabs)-->
