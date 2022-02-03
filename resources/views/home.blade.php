@@ -163,14 +163,10 @@
                                                 class="form-control-label px-3">Descrição</label><textarea id="txtArea"
                                                 rows="6" name="descricao"></textarea> </div>
                                     </div>
-                                    <div class="form-group col-sm-4 flex-column d-flex" style="display:none;"> <label
-                                            class="form-control-label px-3">Valor<span class="text-danger">
-                                                *</span></label> <input type="text" id="lname" name="nome"
+                                    <div  style="display:none;"><input type="text" id="lname" name="nome"
                                             value="{{Auth::user()->name}}"> </div>
                             </div>
-                            <div class="form-group col-sm-4 flex-column d-flex" style="display:none;"> <label
-                                    class="form-control-label px-3">Valor<span class="text-danger">
-                                        *</span></label> <input type="text" id="lname" name="nome"
+                            <div style="display:none;"><input type="text" id="lname" name="nome"
                                     value="{{Auth::user()->email}}"> </div>
                         </div>
 
