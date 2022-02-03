@@ -31,6 +31,7 @@ class SendEmailController extends Controller
         );
         Mail::to('geral@20mediar.pt')-> send(new SendEmailAdmin($data));
         Mail::to($data['email'])-> send(new VendoImovelU($data));
+        return back()->with('success', 'Obrigado! Verifique o seu email.');
     }
 
     function sendCompra(Request $request){
@@ -51,5 +52,6 @@ class SendEmailController extends Controller
         );
         Mail::to('geral@20mediar.pt')-> send(new SendEmailAdminC($data));
         Mail::to($data['email'])-> send(new ComproImovel($data));
+        return back()->with('success', 'Obrigado! Verifique o seu email.');
     }
 }
