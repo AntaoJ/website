@@ -158,7 +158,7 @@
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-12 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Descrição</label><textarea id="txtArea"
-                                                rows="6" name="descricao"></textarea> </div>
+                                                rows="6" name="descricao" value="Descrição"></textarea> </div>
                                     </div>
                                     <div style="display:none;"><input type="text" id="lname" name="nome"
                                             value="{{Auth::user()->name}}"> </div>
@@ -211,7 +211,7 @@
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-12 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Descreva-nos o que
-                                                procura</label><textarea id="txtArea" name="descricao" rows="6"></textarea> </div>
+                                                procura</label><textarea id="txtArea" name="descricao" value="Descrição" rows="6"></textarea> </div>
                                     </div>
                                     <div style="display:none;"><input type="text" id="lname" name="nome"
                                             value="{{Auth::user()->name}}"> </div>
