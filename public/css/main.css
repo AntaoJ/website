@@ -166,9 +166,10 @@ iframe {
 
 .txt1antao {
   font-family: Montserrat-Regular;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.4;
   color: #0c1adb;
+  text-decoration: underline, #0c1adb;
 }
 
 .txt2 {
