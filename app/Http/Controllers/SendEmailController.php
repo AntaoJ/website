@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\VendoImovelU;
 use App\Mail\SendEmailAdmin;
+use App\Mail\ComproImovel;
 
 class SendEmailController extends Controller
 {
@@ -15,7 +16,6 @@ class SendEmailController extends Controller
             'natureza'     =>  'required',
             'tipologia'    =>  'required',
             'valor'        =>  'required',
-            'descricao'    =>  'required',
             'nome'         =>  'required',
             'email'        =>  'required',
         ]);
@@ -30,5 +30,24 @@ class SendEmailController extends Controller
         );
         Mail::to('geral@20mediar.pt')-> send(new SendEmailAdmin($data));
         Mail::to($data['email'])-> send(new VendoImovelU($data));
+    }
+    
+    function sendCompra(Request $request){
+        $this->validate($request,[
+            'localidade'   =>  'required',
+            'tipologia'    =>  'required',
+            'orcamento'    =>  'required',
+            'nome'         =>  'required',
+            'email'        =>  'required',
+        ]);
+        $data = array( 
+            'localidade'   =>  $request->localidade,
+            'tipologia'    =>  $request->tipologia,
+            'orcamento'    =>  $request->orcamento,
+            'nome'         =>  $request->nome,
+            'email'        =>  $request->email,
+        );
+        //Mail::to('geral@20mediar.pt')-> send(new SendEmailAdmin($data));
+        Mail::to($data['email'])-> send(new ComproImovel($data));
     }
 }

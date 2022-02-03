@@ -191,27 +191,33 @@
                         </div><!-- /.card-header -->
                         <div class="card-body">
                             <div class="tab-content p-0">
-                                <form class="form-card" onsubmit="event.preventDefault()">
+                                <form class="form-card" method="post" action="{{ url('sendemail/sendCompra') }}">
+                                    {{ csrf_field() }}
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-12 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Localização<span class="text-danger">
-                                                    *</span></label> <input type="text" id="ans" name="ans"
+                                                    *</span></label> <input type="text" id="ans" name="localizacao"
                                                 placeholder="" onblur="validate(6)"> </div>
                                     </div>
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-sm-6 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Orçamento<span class="text-danger">
-                                                    *</span></label> <input type="text" id="fname" name="fname"> </div>
+                                                    *</span></label> <input type="text"  name="orcamento"> </div>
                                         <div class="form-group col-sm-6 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Tipologia<span class="text-danger">
-                                                    *</span></label> <input type="text" id="lname" name="lname"> </div>
+                                                    *</span></label> <input type="text" name="tipologia"> </div>
 
                                     </div>
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-12 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Descreva-nos o que
-                                                procura</label><textarea id="txtArea" rows="6"></textarea> </div>
+                                                procura</label><textarea id="txtArea" name="descricao" rows="6"></textarea> </div>
                                     </div>
+                                    <div style="display:none;"><input type="text" id="lname" name="nome"
+                                            value="{{Auth::user()->name}}"> </div>
+
+                                    <div style="display:none;"><input type="text" id="lname" name="email"
+                                            value="{{Auth::user()->email}}"> </div>
 
                                     <div class="row justify-content-end">
                                         <div class="form-group col-sm-6"> <button type="submit"
