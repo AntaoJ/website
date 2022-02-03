@@ -31,7 +31,7 @@ class SendEmailAdminC extends Mailable
     public function build()
     {
         return $this->from('geral@20mediar.pt')
-                    ->subject('Novo Contacto')
+                    ->subject('Novo Contacto - Compra')
                     ->view('compraAdmin')
                     ->with('data', $this->data);
     }
