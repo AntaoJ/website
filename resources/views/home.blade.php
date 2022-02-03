@@ -196,7 +196,7 @@
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-12 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Localização<span class="text-danger">
-                                                    *</span></label> <input type="text" id="ans" name="localizacao"
+                                                    *</span></label> <input type="text" id="ans" name="localidade"
                                                 placeholder="" onblur="validate(6)"> </div>
                                     </div>
                                     <div class="row justify-content-between text-left">
