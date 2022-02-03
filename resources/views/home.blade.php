@@ -106,7 +106,7 @@
                                                 </a>
                                                 <a class="share mx-auto"
                                                     style="color: #27ab00 !important;margin-top:11px;"
-                                                    href="https://wa.me/?text=<?php echo 'https://20mediar.pt/?invite=hexnhjheduhu34498um8u-c5588';?>">
+                                                    href="https://wa.me/?text=<?php echo url('?').http_build_query(['invite' => Auth::user()->uuid ], null, '&', PHP_QUERY_RFC3986);?>">
                                                     <img class=" m-1 social-icon hvr-grow"
                                                         style=" width:80px;height:80px"
                                                         src="{{ asset('img/whatsapp.svg') }}">
