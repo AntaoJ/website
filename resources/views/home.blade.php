@@ -41,10 +41,11 @@
 .card-body {
     padding-top: 0;
 }
+
 @media only screen and (max-width: 600px) {
-  .des {
-    display:none;
-  }
+    .des {
+        display: none;
+    }
 }
 </style>
 <div class="content-wrapper">
@@ -90,7 +91,7 @@
                                         <div class="container ml-10 mr-10">
                                             <div class="row ">
 
-                                                
+
                                                 <a class="share mx-auto" style="color: #0077b5 !important;"
                                                     href="https://www.linkedin.com/sharing/share-offsite/?url=<?php echo 'https://20mediar.pt/?invite=hexnhjheduhu34498um8u-c5588';?>">
                                                     <span class="mdi mdi-linkedin" style="font-size:400%;"> </span>
@@ -147,10 +148,12 @@
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Natureza<span class="text-danger">
-                                                    *</span></label> <input type="text" id="fname" name="natureza"> </div>
+                                                    *</span></label> <input type="text" id="fname" name="natureza">
+                                        </div>
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Tipologi<span class="text-danger">
-                                                    *</span></label> <input type="text" id="lname" name="tipologia"> </div>
+                                                    *</span></label> <input type="text" id="lname" name="tipologia">
+                                        </div>
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Valor<span class="text-danger">
                                                     *</span></label> <input type="text" id="lname" name="valor"> </div>
@@ -160,81 +163,76 @@
                                                 class="form-control-label px-3">Descrição</label><textarea id="txtArea"
                                                 rows="6" name="descricao"></textarea> </div>
                                     </div>
-                                    <div class="form-group col-sm-4 flex-column d-flex"> <label
-                                                class="form-control-label px-3">Valor<span class="text-danger">
-                                                    *</span></label> <input type="text" id="lname" name="nome" value="{{Auth::user()->name}}" > </div>
-                                    </div>
-                                    <div class="form-group col-sm-4 flex-column d-flex"> <label
-                                                class="form-control-label px-3">Valor<span class="text-danger">
-                                                    *</span></label> <input type="text" id="lname" name="nome" value="{{Auth::user()->name}}" > </div>
-                                    </div>
-                                    <div class="row justify-content-between text-left" >
-                                        <div class="form-group col-12 flex-column d-flex"> <label
-                                                class="form-control-label px-3"></label><textarea id="txtArea"
-                                                rows="6" name="email" value="{{Auth::user()->email}}"></textarea> </div>
-                                    </div>
-
-                                    <div class="row justify-content-end">
-                                        <div class="form-group col-sm-6"> <button type="submit"
-                                                class="login100-form-btn">
-                                                Submeter 
-                                            </button> </div>
-                                    </div>
-                                </form>
+                                    <div class="form-group col-sm-4 flex-column d-flex" style="display:none;"> <label
+                                            class="form-control-label px-3">Valor<span class="text-danger">
+                                                *</span></label> <input type="text" id="lname" name="nome"
+                                            value="{{Auth::user()->name}}"> </div>
                             </div>
-                        </div><!-- /.card-body -->
+                            <div class="form-group col-sm-4 flex-column d-flex" style="display:none;"> <label
+                                    class="form-control-label px-3">Valor<span class="text-danger">
+                                        *</span></label> <input type="text" id="lname" name="nome"
+                                    value="{{Auth::user()->email}}"> </div>
+                        </div>
+
+                        <div class="row justify-content-end">
+                            <div class="form-group col-sm-6"> <button type="submit" class="login100-form-btn">
+                                    Submeter
+                                </button> </div>
+                        </div>
+                        </form>
                     </div>
-                    <!-- /.card -->
-                </div>
-                <!-- Left col -->
-                <div class="col-lg-6 col-md-6 col-sm-12 connectedSortable">
-                    <!-- Custom tabs (Charts with tabs)-->
-                    <div class="card">
-                        <div class="card-header">
-                            <h4 style="font-weight:bold">
-                                Pretende comprar um imóvel?
-                            </h4>
-                            <p>Terá direito a parte da comissão imobiliária</p>
-                        </div><!-- /.card-header -->
-                        <div class="card-body">
-                            <div class="tab-content p-0">
-                                <form class="form-card" onsubmit="event.preventDefault()">
-                                    <div class="row justify-content-between text-left">
-                                        <div class="form-group col-12 flex-column d-flex"> <label
-                                                class="form-control-label px-3">Localização<span class="text-danger">
-                                                    *</span></label> <input type="text" id="ans" name="ans"
-                                                placeholder="" onblur="validate(6)"> </div>
-                                    </div>
-                                    <div class="row justify-content-between text-left">
-                                        <div class="form-group col-sm-6 flex-column d-flex"> <label
-                                                class="form-control-label px-3">Orçamento<span class="text-danger">
-                                                    *</span></label> <input type="text" id="fname" name="fname"> </div>
-                                        <div class="form-group col-sm-6 flex-column d-flex"> <label
-                                                class="form-control-label px-3">Tipologia<span class="text-danger">
-                                                    *</span></label> <input type="text" id="lname" name="lname"> </div>
-
-                                    </div>
-                                    <div class="row justify-content-between text-left">
-                                        <div class="form-group col-12 flex-column d-flex"> <label
-                                                class="form-control-label px-3">Descreva-nos o que
-                                                procura</label><textarea id="txtArea" rows="6"></textarea> </div>
-                                    </div>
-
-                                    <div class="row justify-content-end">
-                                        <div class="form-group col-sm-6"> <button type="submit"
-                                                class="login100-form-btn">
-                                                Submeter
-                                            </button> </div>
-                                    </div>
-                                </form>
+                </div><!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+        </div>
+        <!-- Left col -->
+        <div class="col-lg-6 col-md-6 col-sm-12 connectedSortable">
+            <!-- Custom tabs (Charts with tabs)-->
+            <div class="card">
+                <div class="card-header">
+                    <h4 style="font-weight:bold">
+                        Pretende comprar um imóvel?
+                    </h4>
+                    <p>Terá direito a parte da comissão imobiliária</p>
+                </div><!-- /.card-header -->
+                <div class="card-body">
+                    <div class="tab-content p-0">
+                        <form class="form-card" onsubmit="event.preventDefault()">
+                            <div class="row justify-content-between text-left">
+                                <div class="form-group col-12 flex-column d-flex"> <label
+                                        class="form-control-label px-3">Localização<span class="text-danger">
+                                            *</span></label> <input type="text" id="ans" name="ans" placeholder=""
+                                        onblur="validate(6)"> </div>
                             </div>
-                        </div><!-- /.card-body -->
+                            <div class="row justify-content-between text-left">
+                                <div class="form-group col-sm-6 flex-column d-flex"> <label
+                                        class="form-control-label px-3">Orçamento<span class="text-danger">
+                                            *</span></label> <input type="text" id="fname" name="fname"> </div>
+                                <div class="form-group col-sm-6 flex-column d-flex"> <label
+                                        class="form-control-label px-3">Tipologia<span class="text-danger">
+                                            *</span></label> <input type="text" id="lname" name="lname"> </div>
+
+                            </div>
+                            <div class="row justify-content-between text-left">
+                                <div class="form-group col-12 flex-column d-flex"> <label
+                                        class="form-control-label px-3">Descreva-nos o que
+                                        procura</label><textarea id="txtArea" rows="6"></textarea> </div>
+                            </div>
+
+                            <div class="row justify-content-end">
+                                <div class="form-group col-sm-6"> <button type="submit" class="login100-form-btn">
+                                        Submeter
+                                    </button> </div>
+                            </div>
+                        </form>
                     </div>
-                    <!-- /.card -->
-                </div>
-                <!-- /.Left col -->
-            </div><!-- /.container-fluid -->
-    </section>
+                </div><!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+        </div>
+        <!-- /.Left col -->
+</div><!-- /.container-fluid -->
+</section>
 
 
 </div>
