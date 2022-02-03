@@ -24,7 +24,7 @@
                 <form method="POST" action="{{ route('login') }}" class="login100-form validate-form">
                     @csrf
                     <img src="img/20MediarPreto.png"
-                        style="height:6rem;display: block;margin-left: auto;margin-right: 75%" alt="">
+                        style="height:6rem;display: block;margin-left: auto;margin-right: 50%" alt="">
                         <p></p>
                     <span class="login100-form-title p-b-30" style="font-weight:bold;">
                         Bem vindo!
