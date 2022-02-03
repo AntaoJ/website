@@ -15,8 +15,8 @@ class SendEmailController extends Controller
             'tipologia'    =>  'required',
             'valor'        =>  'required',
             'descricao'    =>  'required',
-            'nome'         =>  'nome',
-            'email'        =>  'email',
+            'nome'         =>  'required',
+            'email'        =>  'required',
         ]);
         $data = array( 
             'localidade'   =>  $request->localidade,
