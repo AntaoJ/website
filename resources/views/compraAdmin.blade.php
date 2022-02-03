@@ -2,10 +2,8 @@
 
 <p>Localidade: {{$data['localidade']}}</p>
 
-<p>Natureza: {{$data['natureza']}}</p>
-
 <p>Tipologia: {{$data['tipologia']}}</p>
 
-<p>Valor: {{$data['valor']}}</p>
+<p>Orcamento: {{$data['orcamento']}}</p>
 
 <p>Descrição: {{$data['descricao']}}</p>
