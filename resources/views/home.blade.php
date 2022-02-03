@@ -149,7 +149,7 @@
                                                 class="form-control-label px-3">Natureza<span class="text-danger">
                                                     *</span></label> <input type="text" id="fname" name="natureza"> </div>
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
-                                                class="form-control-label px-3">Tipologia<span class="text-danger">
+                                                class="form-control-label px-3">Tipologi<span class="text-danger">
                                                     *</span></label> <input type="text" id="lname" name="tipologia"> </div>
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Valor<span class="text-danger">
