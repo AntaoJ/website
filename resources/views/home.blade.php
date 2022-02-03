@@ -41,10 +41,11 @@
 .card-body {
     padding-top: 0;
 }
+
 @media only screen and (max-width: 600px) {
-  .des {
-    display:none;
-  }
+    .des {
+        display: none;
+    }
 }
 </style>
 <div class="content-wrapper">
@@ -90,7 +91,7 @@
                                         <div class="container ml-10 mr-10">
                                             <div class="row ">
 
-                                                
+
                                                 <a class="share mx-auto" style="color: #0077b5 !important;"
                                                     href="https://www.linkedin.com/sharing/share-offsite/?url=<?php echo 'https://20mediar.pt/?invite=hexnhjheduhu34498um8u-c5588';?>">
                                                     <span class="mdi mdi-linkedin" style="font-size:400%;"> </span>
@@ -136,6 +137,21 @@
                         </div><!-- /.card-header -->
                         <div class="card-body">
                             <div class="tab-content p-0">
+                                @if ($errors->any())
+                                <div class="alert alert-danger">
+                                    <ul>
+                                        @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                                @endif
+                                @if (Session::get('success'))
+                                    <div class="alert alert-success alert-block">
+                                        <button type="button" class="close" data-dismiss="alert">+</button>
+                                        <strong>{{Session::get('success')}}</strong>
+                                    </div>
+                                @endif
                                 <form class="form-card" method="post" action="{{ url('sendemail/send') }}">
                                     {{ csrf_field() }}
                                     <div class="row justify-content-between text-left">
@@ -147,10 +163,12 @@
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Natureza<span class="text-danger">
-                                                    *</span></label> <input type="text" id="fname" name="natureza"> </div>
+                                                    *</span></label> <input type="text" id="fname" name="natureza">
+                                        </div>
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Tipologi<span class="text-danger">
-                                                    *</span></label> <input type="text" id="lname" name="tipologia"> </div>
+                                                    *</span></label> <input type="text" id="lname" name="tipologia">
+                                        </div>
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Valor<span class="text-danger">
                                                     *</span></label> <input type="text" id="lname" name="valor"> </div>
@@ -170,7 +188,7 @@
                                     <div class="row justify-content-end">
                                         <div class="form-group col-sm-6"> <button type="submit"
                                                 class="login100-form-btn">
-                                                Submeter 
+                                                Submeter
                                             </button> </div>
                                     </div>
                                 </form>
@@ -202,7 +220,7 @@
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-sm-6 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Orçamento<span class="text-danger">
-                                                    *</span></label> <input type="text"  name="orcamento"> </div>
+                                                    *</span></label> <input type="text" name="orcamento"> </div>
                                         <div class="form-group col-sm-6 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Tipologia<span class="text-danger">
                                                     *</span></label> <input type="text" name="tipologia"> </div>
@@ -211,7 +229,8 @@
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-12 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Descreva-nos o que
-                                                procura</label><textarea id="txtArea" name="descricao" value="Descrição" rows="6"></textarea> </div>
+                                                procura</label><textarea id="txtArea" name="descricao" value="Descrição"
+                                                rows="6"></textarea> </div>
                                     </div>
                                     <div style="display:none;"><input type="text" id="lname" name="nome"
                                             value="{{Auth::user()->name}}"> </div>
