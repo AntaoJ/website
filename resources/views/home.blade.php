@@ -128,6 +128,7 @@
                 <div class="alert alert-danger">
                     <ul>
                         @foreach ($errors->all() as $error)
+                        <button type="button" class="close" data-dismiss="alert">+</button>
                         <li>{{ $error }}</li>
                         @endforeach
                     </ul>
