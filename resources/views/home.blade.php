@@ -163,7 +163,7 @@
                                     <div style="display:none;"><input type="text" id="lname" name="nome"
                                             value="{{Auth::user()->name}}"> </div>
 
-                                    <div style="display:none;"><input type="text" id="lname" name="nome"
+                                    <div style="display:none;"><input type="text" id="lname" name="email"
                                             value="{{Auth::user()->email}}"> </div>
 
 
