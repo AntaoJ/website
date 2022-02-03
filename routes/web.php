@@ -27,4 +27,6 @@ Route::post('sendemail/sendCompra', [App\Http\Controllers\SendEmailController::c
 
 
 
-
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
