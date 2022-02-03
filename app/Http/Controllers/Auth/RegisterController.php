@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use App\Models\User;
+use App\Models\Invite;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -64,15 +65,40 @@ class RegisterController extends Controller
      * @param  array  $data
      * @return \App\Models\User
      */
-    protected function create(array $data)
+      protected function create(array $data)
+    {
+        $user = new User;
+        $user->name = $data['name'];
+        $user->email = $data['email'];
+        $user->invite = $data['invite'];
+        $user->telemovel = $data['telemovel'];
+        $user->localidade = $data['local'];
+        $user->password = Hash::make($data['password']);
+        $user->save();
+        return $user;      
+    }
+
+    public function register(Request $request)
     {
         
-        return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'telemovel' => $data['telemovel'],
-            'localidade' => $data['local'],
-            'password' => Hash::make($data['password']),
-        ]);
+        $this->validator($request->all())->validate(); 
+        $user = $this->create($request->all());
+        event(new Registered($user));
+            
+        if($user->invite != null){
+            $invite = new Invite;
+            $invite->uuid_first = $user->invite;
+            $invite->uuid_sec = $user->uuid;
+            $invite->save();
+        }
+            $this->guard()->login($user);
+            if ($response = $this->registered($request, $user)) {
+                return $response;
+            }
+
+            return $request->wantsJson()
+                        ? new Response('', 201)
+                        : redirect($this->redirectPath());
+
     }
 }
