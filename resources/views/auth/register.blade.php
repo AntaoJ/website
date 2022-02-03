@@ -81,8 +81,7 @@
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <span class="login100-form-title p-b-20" style="font-weight:bold;">Com a 20Mediar
-                                        todos ganham!</span>
+                                    <span class="login100-form-title p-b-20" style="font-weight:bold;">Com a 20Mediar todos ganham!</span>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>

@@ -48,7 +48,7 @@
                     <div class="flex-sb-m w-full p-t-3 p-b-32">
                         <div>
                             <a href="#" class="txt1">
-                                Esqueceste da password?
+                                Esqueceu-se da password?
                             </a>
                         </div>
                     </div>
@@ -69,12 +69,39 @@
                         </div>
 
                     </div>
-                    <div class="flex-sb-m w-full">
+                    <div class="flex-sb-m w-full" style="margin-top:2rem;">
                         <div>
-							<a href="">Conheça todas as vantagens de estar registado</a>
-                            
+                            <a data-toggle="modal" data-target="#modal" style="cursor: pointer;">Conheça todas as
+                                vantagens de estar
+                                registado</a>
                         </div>
 
+                    </div>
+
+                    <div class="modal" id="modal" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <span class="login100-form-title p-b-20" style="font-weight:bold;">Com a 20Mediar todos ganham!</span>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p style="width:100%;text-align: justify;color:black;">
+                                        Como cliente, ao vender o seu imóvel, será reembolsado de parte da <b>comissão
+                                            imobiliária</b>
+                                        acordada entre as partes. <br>
+                                        Ao enviar o <b>link de convite</b> ao seu <b>círculo de amigos</b> será
+                                        recompensado(a) com uma
+                                        <b>percentagem da comissão</b> originada por cada transação realizada por eles.
+                                        <br>
+                                        Saiba como <b>beneficiar-se</b> do <b>marketing de influência</b>!<br>
+                                        <b>Com a 20Mediar todos ganham!</b><br><br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </form>
