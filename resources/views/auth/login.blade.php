@@ -62,7 +62,7 @@
                     <div class="flex-sb-m w-full p-t-3" style="margin-top:4rem;">
                         <div>
                             Ainda não tem conta?
-                            <a href="/register" class="txt1">
+                            <a href="/register" class="txt1antao">
                                 Registe-se aqui!
                             </a>
 
