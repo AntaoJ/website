@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
+use Webpatser\Uuid\Uuid;
 
 class User extends Authenticatable
 {
@@ -34,7 +35,13 @@ class User extends Authenticatable
         'password',
         'remember_token',
     ];
-
+    public static function boot()
+    {
+        parent::boot();
+        self::creating(function ($model) {
+            $model->uuid = (string) Uuid::generate(4);
+        });
+    }
     /**
      * The attributes that should be cast.
      *
