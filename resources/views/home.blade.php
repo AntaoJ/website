@@ -93,15 +93,15 @@
 
 
                                                 <a class="share mx-auto" style="color: #0077b5 !important;"
-                                                    href="https://www.linkedin.com/sharing/share-offsite/?url=<?php echo 'https://20mediar.pt/?invite=hexnhjheduhu34498um8u-c5588';?>">
+                                                href="https://www.linkedin.com/sharing/share-offsite/?url=<?php echo url('?').http_build_query(['invite' => Auth::user()->uuid ], null, '&', PHP_QUERY_RFC3986);?>">
                                                     <span class="mdi mdi-linkedin" style="font-size:400%;"> </span>
                                                 </a>
                                                 <a class="share mx-auto" style="color:#1da1f2 !important;"
-                                                    href="https://twitter.com/intent/tweet?text=<?php echo 'https://20mediar.pt/?invite=hexnhjheduhu34498um8u-c5588';?>">
+                                                href="https://twitter.com/intent/tweet?text=<?php echo url('?').http_build_query(['invite' => Auth::user()->uuid ], null, '&', PHP_QUERY_RFC3986);?>">
                                                     <span class="mdi mdi-twitter " style="font-size:400%;"></span>
                                                 </a>
                                                 <a class="share mx-auto" style="color:#3a5897 !important;"
-                                                    href="https://www.facebook.com/sharer/sharer.php?u=<?php echo 'https://20mediar.pt/?invite=hexnhjheduhu34498um8u-c5588';?>">
+                                                href="https://www.facebook.com/sharer/sharer.php?u=<?php echo url('?').http_build_query(['invite' => Auth::user()->uuid ], null, '&', PHP_QUERY_RFC3986);?>">
                                                     <span class="mdi mdi-facebook " style="font-size:400%;"></span>
                                                 </a>
                                                 <a class="share mx-auto"
