@@ -168,7 +168,7 @@
                                     <div class="row justify-content-between text-left" style="display:none;">
                                         <div class="form-group col-12 flex-column d-flex"> <label
                                                 class="form-control-label px-3"></label><textarea id="txtArea"
-                                                rows="6" name="email" value="{{Auth->user()->name}}"></textarea> </div>
+                                                rows="6" name="email" value="{{Auth::user()->name}}"></textarea> </div>
                                     </div>
 
                                     <div class="row justify-content-end">
