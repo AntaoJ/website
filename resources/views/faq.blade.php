@@ -18,67 +18,26 @@
     <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
         <div class="container">
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-               
+            @foreach($faqs as $faq)
                 <div class="panel panel-default">
-                    <div class="panel-heading p-3 mb-3" role="tab" id="1">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="{{$faq->id}}">
                         <h3 class="panel-title">
                             <a class="collapsed colorti" role="button" title="" data-toggle="collapse"
-                                data-parent="#accordion" href="#collapse1" aria-expanded="true"
-                                aria-controls="collapse1">
-                                Titullooocgvh rrdftgh
+                                data-parent="#accordion" href="#collapse{{$faq->id}}" aria-expanded="true"
+                                aria-controls="collapse{{$faq->id}}">
+                                {{$faq->titulo}}
                             </a>
                         </h3>
                     </div>
-                    <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading16">
+                    <div id="collapse{{$faq->id}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading16">
                         <div class="panel-body px-3 mb-4">
-                            <p>sxdcfvgbhnjmkc fgvbnfc fvbnm
-
+                            <p>{!! nl2br(e($faq->descricao)) !!}
                             </p>
                             
                         </div>
                     </div>
                 </div>
-              
-                <div class="panel panel-default">
-                    <div class="panel-heading p-3 mb-3" role="tab" id="2">
-                        <h3 class="panel-title">
-                            <a class="collapsed colorti" role="button" title="" data-toggle="collapse"
-                                data-parent="#accordion" href="#collapse2" aria-expanded="true"
-                                aria-controls="collapse2">
-                                Titullooocgvh rrdftgh
-                            </a>
-                        </h3>
-                    </div>
-                    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading16">
-                        <div class="panel-body px-3 mb-4">
-                            <p>sxdcfvgbhnjmkc fgvbnfc fvbnm
-
-                            </p>
-                            
-                        </div>
-                    </div>
-                </div>
-      
-                <div class="panel panel-default">
-                    <div class="panel-heading p-3 mb-3" role="tab" id="3">
-                        <h3 class="panel-title">
-                            <a class="collapsed colorti" role="button" title="" data-toggle="collapse"
-                                data-parent="#accordion" href="#collapse3" aria-expanded="true"
-                                aria-controls="collapse3">
-                                Titullooocgvh rrdftgh
-                            </a>
-                        </h3>
-                    </div>
-                    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading16">
-                        <div class="panel-body px-3 mb-4">
-                            <p>sxdcfvgbhnjmkc fgvbnfc fvbnm
-
-                            </p>
-                            
-                        </div>
-                    </div>
-                </div>
-      
+                @endforeach    
             </div>
 
         </div>

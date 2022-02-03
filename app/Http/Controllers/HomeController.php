@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Faq;
 
 class HomeController extends Controller
 {
@@ -27,7 +28,8 @@ class HomeController extends Controller
     }
     public function faq()
     {
-        return view('faq');
+        $faqs = Faq::all();
+        return view('faq',[ 'faqs' => $faqs ]);
     }
     public function onde()
     {
