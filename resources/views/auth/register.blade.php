@@ -58,6 +58,10 @@
                             placeholder="Confirmar Password">
                     </div>
 
+                    <div class="form-group" >
+                        <input TYPE="hidden" id="invite" readonly  value="{{ app('request')->input('invite') }}" type="text" class="form-control" name="invite" autocomplete="invite">
+                    </div> 
+
                     <div class="container-login100-form-btn">
                         <button type="submit" class="login100-form-btn">
                             Registar
