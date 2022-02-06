@@ -28,7 +28,7 @@
 
                     <img src="img/20MediarPreto.png"
                         style="height:6rem;display: block;margin-left: auto;margin-right: 55%" alt="">
-                    <span class="login100-form-title" style="font-weight:bold;font-size:1.2rem;padding-bottom:0.3rem;">
+                    <span class="login100-form-title" style="font-weight:bold;font-size:1.2rem;padding-bottom:0.8rem;">
                         Novo por aqui!
                     </span>
 
