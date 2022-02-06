@@ -122,6 +122,10 @@
 
 
                     </ul>
+
+
+                </nav>
+                <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <ul class="nav nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         <li class="nav-item">
                             <a href="https://20mediar.com" class="nav-link">
@@ -147,7 +151,7 @@
                             @csrf
                         </form>
                     </ul>
-                </nav>
+                </div>
                 <!-- /.sidebar-menu -->
             </div>
             <!-- /.sidebar -->
