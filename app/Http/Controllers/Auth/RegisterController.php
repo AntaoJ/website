@@ -85,7 +85,7 @@ class RegisterController extends Controller
             'nome'         =>  $data['name'],
             'invite'        =>  $user->uuid,
         );
-        Mail::to($data['email'])-> send(new WelcomeUser($data));
+        Mail::to($user->email)-> send(new WelcomeUser($data));
         return $user;      
     }
 
