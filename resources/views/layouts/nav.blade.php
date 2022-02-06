@@ -129,7 +129,7 @@
                     <ul class="nav nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         <li class="nav-item">
                             <a href="https://20mediar.com" class="nav-link">
-                                <i class="nav-icon fa-external-link"></i>
+                                <i class="nav-icon fas fa-external-link-alt"></i>
                                 <p>
                                     Visitar Website
                                 </p>
@@ -140,6 +140,7 @@
                             <a href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();"
                                 class="nav-link">
+        
                                 <i class="nav-icon fas fa-sign-out-alt"></i>
                                 <p>
                                     Logout
