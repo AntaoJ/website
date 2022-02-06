@@ -80,6 +80,11 @@ class RegisterController extends Controller
         $user->localidade = $data['local'];
         $user->password = Hash::make($data['password']);
         $user->save();
+        $data = array( 
+            'nome'         =>  $data['name'],
+            'invite'        =>  $user->uuid,
+        );
+        Mail::to($data['email'])-> send(new WelcomeUser($data));
         return $user;      
     }
 
