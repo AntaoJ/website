@@ -39,8 +39,8 @@
                 <li class="nav-item">
                     <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
                 </li>
-            
-             
+
+
             </ul>
 
             <!-- Right navbar links -->
@@ -55,8 +55,8 @@
                 <li class="nav-item">
                     <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
                         <!--<img src="img/profile.png" style="height:1.5rem" class="img-circle elevation-2"
-                            alt="User Image">--> 
-                            {{Auth::user()->name}}
+                            alt="User Image">-->
+                        {{Auth::user()->name}}
                     </a>
                 </li>
             </ul>
@@ -79,7 +79,8 @@
                         <!--<img src="img/profile.png" class="img-circle elevation-2" alt="User Image">-->
                     </div>
                     <div class="info">
-                        <a href="#" data-widget="control-sidebar" data-slide="true" class="d-block">{{Auth::user()->name}}</a>
+                        <a href="#" data-widget="control-sidebar" data-slide="true"
+                            class="d-block">{{Auth::user()->name}}</a>
                     </div>
                 </div>
 
@@ -121,6 +122,31 @@
 
 
                     </ul>
+                    <ul class="nav nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                        <li class="nav-item">
+                            <a href="https://20mediar.com" class="nav-link">
+                                <i class="nav-icon fas fa-map-marked-alt"></i>
+                                <p>
+                                    Visitar Website
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();"
+                                class="nav-link">
+                                <i class="nav-icon fas fa-sign-out-alt"></i>
+                                <p>
+                                    Logout
+                                </p>
+
+                            </a>
+                        </li>
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                            @csrf
+                        </form>
+                    </ul>
                 </nav>
                 <!-- /.sidebar-menu -->
             </div>
@@ -128,28 +154,6 @@
         </aside>
 
         @yield('content')
-
-        <!-- Control Sidebar -->
-        <aside class="control-sidebar control-sidebar-dark">
-            <!-- Control sidebar content goes here -->
-            <ul class="nav nav-sidebar flex-column" data-widget="treeview" role="menu"
-                        data-accordion="false">
-            <li class="nav-item">
-                <a href="{{ route('logout') }}" onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();" class="nav-link">
-                    <i class="nav-icon fas fa-sign-out-alt"></i>
-                    <p>
-                        Logout
-                    </p>
-
-                </a>
-            </li>
-            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                    @csrf
-                </form>
-            </ul>
-        </aside>
-        <!-- /.control-sidebar -->
 
     </div>
     <!-- ./wrapper -->

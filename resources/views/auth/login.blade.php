@@ -64,7 +64,7 @@
                         <div>
                             Ainda não tem conta?
                             <a href="/register" class="txt1antao">
-                                <strong>Registe-se aqui!</strong>
+                                <b>Registe-se aqui!</b>
                             </a>
 
                         </div>
