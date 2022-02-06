@@ -477,7 +477,9 @@ input.input100 {
     margin-right: 40%;
   }
 }
-
+.img_logo{
+  margin-right: 55%;
+}
 @media (max-width: 576px) {
   .login100-form {
     padding-left: 15px;
