@@ -49,7 +49,7 @@
                     <div class="flex-sb-m w-full p-t-3 p-b-32">
                         <div>
                             <a href="#" class="txt1">
-                                Esqueceu-se da password?
+                                Recuperar password?
                             </a>
                         </div>
                     </div>
