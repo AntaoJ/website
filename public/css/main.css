@@ -268,14 +268,14 @@ iframe {
   min-height: 100vh;
   display: block;
   background-color: #fff;
-  padding: 70px 55px 55px 55px;
+  padding: 30px 55px 55px 55px;
 }
 
 .login100-form-title {
   width: 100%;
   display: block;
   font-family: Poppins-Regular;
-  font-size: 30px;
+  font-size: 1rem;
   color: #333333;
   line-height: 1.2;
   text-align: left;
@@ -479,7 +479,7 @@ input.input100 {
   .login100-form {
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 70px;
+    padding-top: 20px;
   }
 }
 
