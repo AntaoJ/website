@@ -459,7 +459,9 @@ input.input100 {
     padding-left: 30px;
     padding-right: 30px;
   }
-
+  .img_logo{
+    margin-right: 40% !important;
+  }
   .login100-more {
     width: 50%;
   }
@@ -474,7 +476,7 @@ input.input100 {
     display: none;
   }
   .img_logo{
-    margin-right: 40%;
+    margin-right: 40% !important;
   }
 }
 
@@ -485,7 +487,7 @@ input.input100 {
     padding-top: 20px;
   }
   .img_logo{
-    margin-right: 40%;
+    margin-right: 40% !important;
   }
 }
 
