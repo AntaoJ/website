@@ -21,12 +21,12 @@
     <div class="limiter">
         <div class="container-login100">
             <div class="wrap-login100">
-                <form method="POST" action="{{ route('login') }}" class="login100-form validate-form">
+                <form method="POST" action="{{ route('login') }}" class="login100-form validate-form" style="padding-top:30px;">
                     @csrf
                     <img src="img/20MediarPreto.png"
                         style="height:6rem;display: block;margin-left: auto;margin-right: 50%" alt="">
                         <p></p>
-                    <span class="login100-form-title p-b-30" style="font-weight:bold;">
+                    <span class="login100-form-title" style="font-weight:bold;font-size:1rem;">
                         Bem vindo!
                     </span>
                     <p style="width:80%;text-align: justify;">
