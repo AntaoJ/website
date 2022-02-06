@@ -23,12 +23,12 @@
         <div class="container-login100">
             <div class="wrap-login100">
             
-                <form method="POST" action="{{ route('register') }}" class="login100-form validate-form">
+                <form method="POST" action="{{ route('register') }}" class="login100-form validate-form" style="padding-top:30px;">
                     @csrf
 
                     <img src="img/20MediarPreto.png"
                         style="height:6rem;display: block;margin-left: auto;margin-right: 55%" alt="">
-                    <span class="login100-form-title p-b-30" style="font-weight:bold;">
+                    <span class="login100-form-title" style="font-weight:bold;font-size:1.2rem;">
                         Novo por aqui!
                     </span>
 
