@@ -455,6 +455,12 @@ input.input100 {
 .img_logo{
   margin-right: 55%;
 }
+@media (min-width: 995px) {
+  .img_logo{
+    margin-right: 55% !important;
+  }
+}
+
 @media (max-width: 992px) {
   .login100-form {
     width: 50%;
