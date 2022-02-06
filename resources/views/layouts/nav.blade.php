@@ -129,7 +129,7 @@
                     <ul class="nav nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         <li class="nav-item">
                             <a href="https://20mediar.com" class="nav-link">
-                                <i class="nav-icon fas fa-map-marked-alt"></i>
+                                <i class="nav-icon fas fa-external-link"></i>
                                 <p>
                                     Visitar Website
                                 </p>
