@@ -473,6 +473,9 @@ input.input100 {
   .login100-more {
     display: none;
   }
+  .img_logo{
+    margin-right: 40%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -480,6 +483,9 @@ input.input100 {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 20px;
+  }
+  .img_logo{
+    margin-right: 40%;
   }
 }
 
