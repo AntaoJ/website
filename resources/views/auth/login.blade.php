@@ -26,7 +26,7 @@
                     <img src="img/20MediarPreto.png"
                         style="height:6rem;display: block;margin-left: auto;margin-right: 50%" alt="">
                         <p></p>
-                    <span class="login100-form-title" style="font-weight:bold;font-size:1rem;">
+                    <span class="login100-form-title" style="font-weight:bold;font-size:1.2rem;">
                         Bem vindo!
                     </span>
                     <p style="width:80%;text-align: justify;">
