@@ -48,7 +48,7 @@
 
                     <div class="flex-sb-m w-full p-t-3 p-b-32">
                         <div>
-                            <a href="#" class="txt1">
+                            <a href="/password/reset" class="txt1">
                                 Recuperar password?
                             </a>
                         </div>
