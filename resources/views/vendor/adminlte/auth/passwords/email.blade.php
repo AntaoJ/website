@@ -21,39 +21,37 @@
     <div class="limiter">
         <div class="container-login100">
             <div class="wrap-login100">
-                    @if (session('status'))
-                    <div class="alert alert-success" role="alert">
-                        {{ session('status') }}
+                @if (session('status'))
+                <div class="alert alert-success" role="alert">
+                    {{ session('status') }}
+                </div>
+                @endif
+
+                <form method="POST" action="{{ route('password.email') }}" class="login100-form validate-form"
+                    style="padding-top:30px;">
+                    @csrf
+                    <img src="img/20MediarPreto.png"
+                        style="height:6rem;display: block;margin-left: auto;margin-right: 55%;" class="img_logo" alt="">
+
+                    <span class="login100-form-title" style="font-weight:bold;font-size:1.2rem;padding-bottom:0.9rem">
+                        Recuperar a password!
+                    </span>
+
+                    <div class="form-group row">
+                        <label for="email"
+                            class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
+
+                        <div class="col-md-6">
+                            <input class="input100" type="text" name="email" placeholder="Email">
+                        </div>
                     </div>
-                    @endif
 
-                    <form method="POST" action="{{ route('password.email') }}">
-                        @csrf
-
-                        <div class="form-group row">
-                            <label for="email"
-                                class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror"
-                                    name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
-
-                                @error('email')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                                @enderror
-                            </div>
-                        </div>
-
-                        <div class="form-group row mb-0">
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Send Password Reset Link') }}
-                                </button>
-                            </div>
-                        </div>
-                    </form>
+                    <div class="container-login100-form-btn">
+                        <button type="submit" class="login100-form-btn">
+                            Entrar
+                        </button>
+                    </div>
+                </form>
 
                 <div class="login100-more"
                     style="background-image: url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');">
