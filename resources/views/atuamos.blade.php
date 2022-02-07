@@ -8,7 +8,6 @@
             <div class="row mb-2">
                 <div class="col-sm-6">
                     <h2 class="m-0">Onde atuamos</h2>
-                    <p>Concelhos:</p>
                     <li>Amadora</li>
                     <li>Cascais</li>
                     <li>Lisboa</li>
