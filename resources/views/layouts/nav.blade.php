@@ -67,7 +67,7 @@
         <aside class="main-sidebar sidebar-dark-primary elevation-4" style="height:50rem">
             <!-- Brand Logo -->
             <a href="/" class="brand-link">
-                <img src="img/20MediarWhite.png" alt="AdminLTE Logo" class="brand-image" style="opacity: .8">
+                <img src="img/20MediarWhite.png" alt="20Mediar Logo" class="brand-image" style="opacity: .8">
                 <span class="brand-text font-weight-light" style="height: 50px;"></span>
             </a>
 
