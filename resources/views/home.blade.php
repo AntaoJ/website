@@ -72,7 +72,7 @@
                             <h4 style="font-weight:bold">
                                 Recomende amigos e ganhe!
                             </h4>
-                            <p>Será recompensado pela transação dos seus contactos!</p>
+                            <p>Será recompensado por cada transação realizada por eles!</p>
                         </div><!-- /.card-header -->
                         <div class="card-body">
                             <div class="row ">
