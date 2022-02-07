@@ -26,13 +26,13 @@
                     <img src="img/20MediarPreto.png"
                         style="height:6rem;display: block;margin-left: auto;margin-right: 55%;" class="img_logo" alt="">
                         <p></p>
-                    <span class="login100-form-title" style="font-weight:bold;font-size:1.2rem;">
+                    <span class="login100-form-title" style="font-weight:bold;font-size:1.2rem;padding-bottom:0.9rem">
                         Bem vindo!
                     </span>
                     <p style="width:80%;text-align: justify;">
-                        A <b>20Mediar</b> posiciona-se no mercado imobiliário com o objetivo de ser diferente! <br> <br>
-                        Cada imóvel colocado à venda transforma-se numa <b>oportunidade real</b> para todos. <br> <br>
-                        Ao <b>registar-se</b>, qualquer pessoa poderá <b>participar</b> e obter <b>benefícios</b> nesta plataforma.<br> <br>
+                        A <b>20Mediar</b> posiciona-se no mercado imobiliário com o objetivo de ser diferente! <br>
+                        Cada imóvel colocado à venda transforma-se numa <b>oportunidade real</b> para todos. <br>
+                        Ao <b>registar-se</b>, qualquer pessoa poderá <b>participar</b> e obter <b>benefícios</b> nesta plataforma.<br>
                     </p>
 
 
