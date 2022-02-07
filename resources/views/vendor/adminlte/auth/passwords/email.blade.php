@@ -21,8 +21,6 @@
     <div class="limiter">
         <div class="container-login100">
             <div class="wrap-login100">
-
-                <div class="card-body">
                     @if (session('status'))
                     <div class="alert alert-success" role="alert">
                         {{ session('status') }}
@@ -56,8 +54,6 @@
                             </div>
                         </div>
                     </form>
-                </div>
-
 
                 <div class="login100-more"
                     style="background-image: url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');">
