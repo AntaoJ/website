@@ -64,11 +64,11 @@
         <!-- /.navbar -->
 
         <!-- Main Sidebar Container -->
-        <aside class="main-sidebar sidebar-dark-primary elevation-4" style="height:50rem">
+        <aside class="main-sidebar sidebar-dark-primary elevation-4" >
             <!-- Brand Logo -->
-            <a href="/" class="brand-link">
+            <a href="/" class="brand-link" style="height: 50px;">
                 <img src="img/20MediarWhite.png" alt="20Mediar Logo" class="brand-image" style="opacity: .8">
-                <span class="brand-text font-weight-light" style="height: 50px;"></span>
+                <span class="brand-text font-weight-light" ></span>
             </a>
 
             <!-- Sidebar -->
