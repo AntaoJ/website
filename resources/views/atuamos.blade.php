@@ -19,9 +19,7 @@
         </div><!-- /.container-fluid -->
     </div>
 
-    <div class="container">
-        <img src="img/maps.png" style="height:auto;" alt="">
-    </div>
+    <div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;"><div id="canvasfor-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Carcavelos&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlemap-code-enabler" href="https://www.embed-map.com" id="authorizemap-data">https://www.embed-map.com</a><style>#canvasfor-googlemap img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>
 
 </div>
 
