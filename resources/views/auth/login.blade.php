@@ -70,7 +70,7 @@
                         </div>
 
                     </div>
-                    <div class="flex-sb-m w-full" style="margin-top:2rem;">
+                    <div class="flex-sb-m w-full">
                         <div>
                             <a data-toggle="modal" data-target="#modal" style="cursor: pointer;color:#6675DF">Conheça todas as
                                 vantagens de estar
