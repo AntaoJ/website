@@ -482,7 +482,7 @@ input.input100 {
     width: 100%;
   }
   .textx{
-    width:90px !important;
+    width:90% !important;
   }
   .login100-more {
     display: none;
@@ -494,7 +494,7 @@ input.input100 {
 
 @media (max-width: 576px) {
   .textx{
-    width:90px !important;
+    width:90% !important;
   }
   .login100-form {
     padding-left: 15px;
