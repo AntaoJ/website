@@ -472,13 +472,18 @@ input.input100 {
   .login100-more {
     width: 50%;
   }
+  .textx{
+    width:90px !important;
+  }
 }
 
 @media (max-width: 768px) {
   .login100-form {
     width: 100%;
   }
-
+  .textx{
+    width:90px !important;
+  }
   .login100-more {
     display: none;
   }
@@ -488,6 +493,9 @@ input.input100 {
 }
 
 @media (max-width: 576px) {
+  .textx{
+    width:90px !important;
+  }
   .login100-form {
     padding-left: 15px;
     padding-right: 15px;

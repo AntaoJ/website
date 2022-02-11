@@ -29,7 +29,7 @@
                     <span class="login100-form-title" style="font-weight:bold;font-size:1.2rem;padding-bottom:0.9rem">
                         Bem vindo!
                     </span>
-                    <p style="width:80%;text-align: justify;padding-bottom:0.9rem">
+                    <p class="textx"style="width:80%;text-align: justify;padding-bottom:0.9rem">
                         A <b>20Mediar</b> posiciona-se no mercado imobiliário com o objetivo de ser diferente! <br>
                         Cada imóvel colocado à venda transforma-se numa <b>oportunidade real</b> para todos. <br>
                         Ao <b>registar-se</b>, qualquer pessoa poderá <b>participar</b> e obter <b>benefícios</b> nesta plataforma.<br>
@@ -89,7 +89,7 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <p style="width:100%;text-align: justify;color:black;">
+                                    <p  style="width:100%;text-align: justify;color:black;">
                                         &emsp;Como cliente, ao vender o seu imóvel, será reembolsado de parte da <b>comissão
                                             imobiliária</b>
                                         acordada entre as partes. <br>
