@@ -83,21 +83,21 @@
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <span class="login100-form-title p-b-20" style="font-weight:bold;">Com a 20Mediar todos ganham!</span>
+                                    <span class="login100-form-title" style="font-weight:bold;">Com a 20Mediar todos ganham!</span>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
                                     <p style="width:100%;text-align: justify;color:black;">
-                                        Como cliente, ao vender o seu imóvel, será reembolsado de parte da <b>comissão
+                                        &emsp;Como cliente, ao vender o seu imóvel, será reembolsado de parte da <b>comissão
                                             imobiliária</b>
                                         acordada entre as partes. <br>
-                                        Ao enviar o <b>link de convite</b> ao seu <b>círculo de amigos</b> será
+                                        &emsp;Ao enviar o <b>link de convite</b> ao seu <b>círculo de amigos</b> será
                                         recompensado(a) com uma
                                         <b>percentagem da comissão</b> originada por cada transação realizada por eles.
                                         <br>
-                                        Saiba como <b>beneficiar-se</b> do <b>marketing de influência</b>!<br>
+                                        &emsp;Saiba como <b>beneficiar-se</b> do <b>marketing de influência</b>!<br>
                                         <b>Com a 20Mediar todos ganham!</b><br><br>
                                     </p>
                                 </div>
