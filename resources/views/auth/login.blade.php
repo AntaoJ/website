@@ -82,7 +82,7 @@
                     <div class="modal" id="modal" tabindex="-1" role="dialog">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
-                                <div class="modal-header">
+                                <div class="modal-header" style="border-bottom: none !important;">
                                     <span class="login100-form-title" style="font-weight:bold;">Com a 20Mediar todos ganham!</span>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
@@ -92,11 +92,11 @@
                                     <p  style="width:100%;text-align: justify;color:black;">
                                         &emsp;Como cliente, ao vender o seu imóvel, será reembolsado de parte da <b>comissão
                                             imobiliária</b>
-                                        acordada entre as partes. <br>
+                                        acordada entre as partes. <br><br>
                                         &emsp;Ao enviar o <b>link de convite</b> ao seu <b>círculo de amigos</b> será
                                         recompensado(a) com uma
                                         <b>percentagem da comissão</b> originada por cada transação realizada por eles.
-                                        <br>
+                                        <br><br>
                                         &emsp;Saiba como <b>beneficiar-se</b> do <b>marketing de influência</b>!<br>
                                         <b>Com a 20Mediar todos ganham!</b><br><br>
                                     </p>
