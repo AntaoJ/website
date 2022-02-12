@@ -40,14 +40,18 @@ class SendEmailController extends Controller
 
     function sendCompra(Request $request){
         $this->validate($request,[
-            'localidade'   =>  'required',
+            'concelho'   =>  'required',
+            'distrito'   =>  'required',
+            'freguesia'   =>  'required',
             'tipologia'    =>  'required',
             'orcamento'    =>  'required',
             'nome'         =>  'required',
             'email'        =>  'required',
         ]);
         $data = array( 
-            'localidade'   =>  $request->localidade,
+            'concelho'   =>  $request->concelho,
+            'distrito'   =>  $request->distrito,
+            'freguesia'   =>  $request->freguesia,
             'tipologia'    =>  $request->tipologia,
             'orcamento'    =>  $request->orcamento,
             'nome'         =>  $request->nome,

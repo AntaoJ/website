@@ -162,7 +162,7 @@
                                                 class="form-control-label px-3">Concelho<span class="text-danger">
                                                     *</span></label> <select name="concelho">
                                                 <option value="Lisboa">Lisboa</option>
-                                                </select>
+                                            </select>
                                         </div>
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Distrito<span class="text-danger">
@@ -235,10 +235,30 @@
                                 <form class="form-card" method="post" action="{{ url('sendemail/sendCompra') }}">
                                     {{ csrf_field() }}
                                     <div class="row justify-content-between text-left">
-                                        <div class="form-group col-12 flex-column d-flex"> <label
-                                                class="form-control-label px-3">Localização<span class="text-danger">
-                                                    *</span></label> <input type="text" id="ans" name="localidade"
-                                                placeholder="" onblur="validate(6)"> </div>
+                                        <div class="form-group col-sm-4 flex-column d-flex"> <label
+                                                class="form-control-label px-3">Concelho<span class="text-danger">
+                                                    *</span></label> <select name="concelho">
+                                                <option value="Lisboa">Lisboa</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-sm-4 flex-column d-flex"> <label
+                                                class="form-control-label px-3">Distrito<span class="text-danger">
+                                                    *</span></label>
+                                            <select name="distrito">
+                                                <option value="Amadora">Amadora</option>
+                                                <option value="Cascais">Cascais</option>
+                                                <option value="Lisboa">Lisboa</option>
+                                                <option value="Oeiras">Oeiras</option>
+                                                <option value="Sintra">Sintra</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group col-sm-4 flex-column d-flex"> <label
+                                                class="form-control-label px-3">Freguesia<span class="text-danger">
+                                                    *</span></label> <select name="freguesia">
+                                                <option value="procurar..">Procurar...</option>
+
+                                            </select> </div>
                                     </div>
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-sm-6 flex-column d-flex"> <label
