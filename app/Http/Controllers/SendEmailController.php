@@ -13,7 +13,9 @@ class SendEmailController extends Controller
 {
     function send(Request $request){
         $this->validate($request,[
-            'localidade'   =>  'required',
+            'concelho'   =>  'required',
+            'distrito'   =>  'required',
+            'freguesia'   =>  'required',
             'natureza'     =>  'required',
             'tipologia'    =>  'required',
             'valor'        =>  'required',
@@ -21,7 +23,9 @@ class SendEmailController extends Controller
             'email'        =>  'required',
         ]);
         $data = array( 
-            'localidade'   =>  $request->localidade,
+            'concelho'   =>  $request->concelho,
+            'distrito'   =>  $request->distrito,
+            'freguesia'   =>  $request->freguesia,
             'natureza'     =>  $request->natureza,
             'tipologia'    =>  $request->tipologia,
             'valor'        =>  $request->valor,

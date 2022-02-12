@@ -93,15 +93,15 @@
 
 
                                                 <a class="share mx-auto" style="color: #0077b5 !important;"
-                                                href="https://www.linkedin.com/sharing/share-offsite/?url=<?php echo url('/register?').http_build_query(['invite' => Auth::user()->uuid ], null, '&', PHP_QUERY_RFC3986);?>">
+                                                    href="https://www.linkedin.com/sharing/share-offsite/?url=<?php echo url('/register?').http_build_query(['invite' => Auth::user()->uuid ], null, '&', PHP_QUERY_RFC3986);?>">
                                                     <span class="mdi mdi-linkedin" style="font-size:400%;"> </span>
                                                 </a>
                                                 <a class="share mx-auto" style="color:#1da1f2 !important;"
-                                                href="https://twitter.com/intent/tweet?text=<?php echo url('/register?').http_build_query(['invite' => Auth::user()->uuid ], null, '&', PHP_QUERY_RFC3986);?>">
+                                                    href="https://twitter.com/intent/tweet?text=<?php echo url('/register?').http_build_query(['invite' => Auth::user()->uuid ], null, '&', PHP_QUERY_RFC3986);?>">
                                                     <span class="mdi mdi-twitter " style="font-size:400%;"></span>
                                                 </a>
                                                 <a class="share mx-auto" style="color:#3a5897 !important;"
-                                                href="https://www.facebook.com/sharer/sharer.php?u=<?php echo url('/register?').http_build_query(['invite' => Auth::user()->uuid ], null, '&', PHP_QUERY_RFC3986);?>">
+                                                    href="https://www.facebook.com/sharer/sharer.php?u=<?php echo url('/register?').http_build_query(['invite' => Auth::user()->uuid ], null, '&', PHP_QUERY_RFC3986);?>">
                                                     <span class="mdi mdi-facebook " style="font-size:400%;"></span>
                                                 </a>
                                                 <a class="share mx-auto"
@@ -125,23 +125,23 @@
                 </section>
             </div>
             @if ($errors->any())
-                <div class="alert alert-danger">
-                    <ul>
-                        @foreach ($errors->all() as $error)
-                        <button type="button" class="close" data-dismiss="alert">+</button>
-                        <li>{{ $error }}</li>
-                        @endforeach
-                    </ul>
-                </div>
-                @endif
-                @if (Session::get('success'))
-                <div class="alert alert-success alert-block">
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
                     <button type="button" class="close" data-dismiss="alert">+</button>
-                    <strong>{{Session::get('success')}}</strong>
-                </div>
-                @endif
+                    <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+            @endif
+            @if (Session::get('success'))
+            <div class="alert alert-success alert-block">
+                <button type="button" class="close" data-dismiss="alert">+</button>
+                <strong>{{Session::get('success')}}</strong>
+            </div>
+            @endif
             <div class="row">
-                
+
                 <!-- Left col -->
                 <div class="col-lg-6 col-md-6 col-sm-12 connectedSortable">
                     <!-- Custom tabs (Charts with tabs)-->
@@ -158,10 +158,29 @@
                                 <form class="form-card" method="post" action="{{ url('sendemail/send') }}">
                                     {{ csrf_field() }}
                                     <div class="row justify-content-between text-left">
-                                        <div class="form-group col-12 flex-column d-flex"> <label
-                                                class="form-control-label px-3">Localidade<span class="text-danger">
-                                                    *</span></label> <input type="text" id="ans" name="localidade"
-                                                placeholder="" onblur="validate(6)"> </div>
+                                        <div class="form-group col-sm-4 flex-column d-flex"> <label
+                                                class="form-control-label px-3">Concelho<span class="text-danger">
+                                                    *</span></label> <input type="text" disabled id="ans"
+                                                name="concelho" placeholder="Lisboa" value="Lisboa"
+                                                onblur="validate(6)"> </div>
+                                        <div class="form-group col-sm-4 flex-column d-flex"> <label
+                                                class="form-control-label px-3">Distrito<span class="text-danger">
+                                                    *</span></label>
+                                            <select name="distrito">
+                                                <option value="Amadora">Amadora</option>
+                                                <option value="Cascais">Cascais</option>
+                                                <option value="Lisboa">Lisboa</option>
+                                                <option value="Oeiras">Oeiras</option>
+                                                <option value="Sintra">Sintra</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group col-sm-4 flex-column d-flex"> <label
+                                                class="form-control-label px-3">Freguesia<span class="text-danger">
+                                                    *</span></label> <select name="freguesia">
+                                                <option value="procurar..">Procurar...</option>
+                                                
+                                            </select> </div>
                                     </div>
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
