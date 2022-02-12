@@ -160,9 +160,10 @@
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Concelho<span class="text-danger">
-                                                    *</span></label> <input type="text" disabled id="ans"
-                                                name="concelho" placeholder="Lisboa" value="Lisboa"
-                                                onblur="validate(6)"> </div>
+                                                    *</span></label> <select name="concelho">
+                                                <option value="Lisboa">Lisboa</option>
+                                                </select>
+                                        </div>
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Distrito<span class="text-danger">
                                                     *</span></label>
@@ -179,7 +180,7 @@
                                                 class="form-control-label px-3">Freguesia<span class="text-danger">
                                                     *</span></label> <select name="freguesia">
                                                 <option value="procurar..">Procurar...</option>
-                                                
+
                                             </select> </div>
                                     </div>
                                     <div class="row justify-content-between text-left">
