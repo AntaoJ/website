@@ -159,29 +159,27 @@
                                     {{ csrf_field() }}
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
-                                                class="form-control-label px-3">Concelho<span class="text-danger">
-                                                    *</span></label> <select name="concelho">
-                                                <option value="Lisboa">Lisboa</option>
+                                                class="form-control-label px-3">Distrito<span class="text-danger">
+                                                    *</span></label> <select name="distrito">
+                                                <option value="Null"></option>
                                             </select>
                                         </div>
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
-                                                class="form-control-label px-3">Distrito<span class="text-danger">
+                                                class="form-control-label px-3">Concelho<span class="text-danger">
                                                     *</span></label>
-                                            <select name="distrito">
+                                            <select name="concelho">
                                                 <option value="Amadora">Amadora</option>
                                                 <option value="Cascais">Cascais</option>
                                                 <option value="Lisboa">Lisboa</option>
                                                 <option value="Oeiras">Oeiras</option>
+                                                <option value="Odivelas">Odivelas</option>
                                                 <option value="Sintra">Sintra</option>
                                             </select>
                                         </div>
 
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Freguesia<span class="text-danger">
-                                                    *</span></label> <select name="freguesia">
-                                                <option value="procurar..">Procurar...</option>
-
-                                            </select> </div>
+                                                    *</span></label><input type="text" name="freguesia"></div>
                                     </div>
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
@@ -236,38 +234,37 @@
                                     {{ csrf_field() }}
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
-                                                class="form-control-label px-3">Concelho<span class="text-danger">
-                                                    *</span></label> <select name="concelho">
-                                                <option value="Lisboa">Lisboa</option>
+                                                class="form-control-label px-3">Distrito<span class="text-danger">
+                                                    *</span></label> <select name="distrito">
+                                                <option value="Null"></option>
                                             </select>
                                         </div>
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
-                                                class="form-control-label px-3">Distrito<span class="text-danger">
+                                                class="form-control-label px-3">Concelho<span class="text-danger">
                                                     *</span></label>
-                                            <select name="distrito">
+                                            <select name="concelho">
                                                 <option value="Amadora">Amadora</option>
                                                 <option value="Cascais">Cascais</option>
                                                 <option value="Lisboa">Lisboa</option>
                                                 <option value="Oeiras">Oeiras</option>
+                                                <option value="Odivelas">Odivelas</option>
                                                 <option value="Sintra">Sintra</option>
                                             </select>
                                         </div>
 
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Freguesia<span class="text-danger">
-                                                    *</span></label> <select name="freguesia">
-                                                <option value="procurar..">Procurar...</option>
-
-                                            </select> </div>
+                                                    *</span></label><input type="text" name="freguesia"></div>
                                     </div>
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-sm-6 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Orçamento<span class="text-danger">
-                                                    *</span></label> <input type="text" name="orcamento"> </div>
+                                                    *</span></label> <input type="text" name="orcamento">
+                                        </div>
                                         <div class="form-group col-sm-6 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Tipologia<span class="text-danger">
-                                                    *</span></label> <input type="text" name="tipologia"> </div>
-
+                                                    *</span></label> <input type="text" name="tipologia">
+                                        </div>
                                     </div>
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-12 flex-column d-flex"> <label
