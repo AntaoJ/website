@@ -87,16 +87,20 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <p style="width:100%;text-align: justify;color:black;">
-                                        Como cliente, ao vender o seu imóvel, será reembolsado de parte da <b>comissão
+                                <p style="width:100%;text-align: justify;color:black;">
+                                        &emsp;Como cliente, ao vender o seu imóvel, será reembolsado de parte da
+                                        <b>comissão
                                             imobiliária</b>
                                         acordada entre as partes. <br><br>
-                                        Ao enviar o <b>link de convite</b> ao seu <b>círculo de amigos</b> será
+                                        &emsp;Se for comprador, receberá igualmente parte da comissão imobiliária
+                                        <br><br>
+
+                                        &emsp;Ao enviar o <b>link de convite</b> ao seu <b>círculo de amigos</b> será
                                         recompensado(a) com uma
                                         <b>percentagem da comissão</b> originada por cada transação realizada por eles.
                                         <br><br>
-                                        Saiba como <b>beneficiar-se</b> do <b>marketing de influência</b>!<br>
-                                        <b>Com a 20Mediar todos ganham!</b><br><br>
+                                        &emsp;Saiba como <b>beneficiar-se</b> do <b>marketing de influência</b>!<br>
+                                        <br><br>
                                     </p>
                                 </div>
                             </div>
