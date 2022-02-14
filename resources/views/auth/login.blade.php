@@ -9,7 +9,7 @@
     <!--===============================================================================================-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="shortcut icon" href="https://20mediar.pt/img/20MediarPreto.jpeg" />
+    <link rel="shortcut icon" href="https://20mediar.pt/img/20MediarPreto.jpeg" />
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="css/util.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -21,18 +21,20 @@
     <div class="limiter">
         <div class="container-login100">
             <div class="wrap-login100">
-                <form method="POST" action="{{ route('login') }}" class="login100-form validate-form" style="padding-top:30px;">
+                <form method="POST" action="{{ route('login') }}" class="login100-form validate-form"
+                    style="padding-top:30px;">
                     @csrf
                     <img src="img/20MediarPreto.png"
                         style="height:6rem;display: block;margin-left: auto;margin-right: 55%;" class="img_logo" alt="">
-                        <p></p>
+                    <p></p>
                     <span class="login100-form-title" style="font-weight:bold;font-size:1.2rem;padding-bottom:0.9rem">
                         Bem vindo!
                     </span>
-                    <p class="textx"style="width:80%;text-align: justify;padding-bottom:0.9rem">
+                    <p class="textx" style="width:80%;text-align: justify;padding-bottom:0.9rem">
                         A <b>20Mediar</b> posiciona-se no mercado imobiliário com o objetivo de ser diferente! <br>
                         Cada imóvel colocado à venda transforma-se numa <b>oportunidade real</b> para todos. <br>
-                        Ao <b>registar-se</b>, qualquer pessoa poderá <b>participar</b> e obter <b>benefícios</b> nesta plataforma.<br>
+                        Ao <b>registar-se</b>, qualquer pessoa poderá <b>participar</b> e obter <b>benefícios</b> nesta
+                        plataforma.<br>
                     </p>
 
 
@@ -72,7 +74,8 @@
                     </div>
                     <div class="flex-sb-m w-full">
                         <div>
-                            <a data-toggle="modal" data-target="#modal" style="cursor: pointer;color:#6675DF">Conheça todas as
+                            <a data-toggle="modal" data-target="#modal" style="cursor: pointer;color:#6675DF">Conheça
+                                todas as
                                 vantagens de estar
                                 registado</a>
                         </div>
@@ -83,24 +86,26 @@
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header" style="border-bottom: none !important;">
-                                    <span class="login100-form-title" style="font-weight:bold;">Com a 20Mediar todos ganham!</span>
+                                    <span class="login100-form-title" style="font-weight:bold;">Com a 20Mediar todos
+                                        ganham!</span>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <p  style="width:100%;text-align: justify;color:black;">
-                                        &emsp;Como cliente, ao vender o seu imóvel, será reembolsado de parte da <b>comissão
+                                    <p style="width:100%;text-align: justify;color:black;">
+                                        &emsp;Como cliente, ao vender o seu imóvel, será reembolsado de parte da
+                                        <b>comissão
                                             imobiliária</b>
                                         acordada entre as partes. <br><br>
-<p>Se for comprador, receberá igualmente parte da comissão
-imobiliária</p><br><br>
-                                        &emsp;Ao enviar o <b>link de convite</b> ao seu <b>círculo de amigos</b> será
-                                        recompensado(a) com uma
-                                        <b>percentagem da comissão</b> originada por cada transação realizada por eles.
-                                        <br><br>
-                                        &emsp;Saiba como <b>beneficiar-se</b> do <b>marketing de influência</b>!<br>
-                                        <br><br>
+                                    <p style="width:100%;text-align: justify;color:black;">Se for comprador, receberá igualmente parte da comissão
+                                        imobiliária</p><br><br>
+                                    &emsp;Ao enviar o <b>link de convite</b> ao seu <b>círculo de amigos</b> será
+                                    recompensado(a) com uma
+                                    <b>percentagem da comissão</b> originada por cada transação realizada por eles.
+                                    <br><br>
+                                    &emsp;Saiba como <b>beneficiar-se</b> do <b>marketing de influência</b>!<br>
+                                    <br><br>
                                     </p>
                                 </div>
                             </div>
