@@ -64,11 +64,12 @@
         <!-- /.navbar -->
 
         <!-- Main Sidebar Container -->
-        <aside class="main-sidebar sidebar-dark-primary elevation-4" >
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="/" class="brand-link" style="height: 60px;">
-                <img src="img/20MediarWhite.png" alt="20Mediar Logo" class="brand-image" style="opacity: .8">
-                <span class="brand-text font-weight-light" ></span>
+                <img src="img/20MediarWhite.png" alt="20Mediar Logo" class="brand-image" style="opacity: .8; margin-top: -10px !important;
+  max-height: 54px !important;">
+                <span class="brand-text font-weight-light"></span>
             </a>
 
             <!-- Sidebar -->
@@ -140,7 +141,7 @@
                             <a href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();"
                                 class="nav-link">
-        
+
                                 <i class="nav-icon fas fa-sign-out-alt"></i>
                                 <p>
                                     Logout
