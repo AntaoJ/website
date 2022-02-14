@@ -243,8 +243,9 @@
                                                 class="form-control-label px-3">Concelho<span class="text-danger">
                                                     *</span></label>
                                             <select name="concelho">
-                                                <option value="Amadora">Amadora</option>
-                                                <option value="Cascais">Cascais</option>
+
+                                                <option  value="Amadora">Amadora</option>
+                                                <option select value="Cascais">Cascais</option>
                                                 <option value="Lisboa">Lisboa</option>
                                                 <option value="Oeiras">Oeiras</option>
                                                 <option value="Odivelas">Odivelas</option>
