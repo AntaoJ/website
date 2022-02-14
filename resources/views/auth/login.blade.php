@@ -98,8 +98,8 @@
                                         <b>comissão
                                             imobiliária</b>
                                         acordada entre as partes. <br><br>
-                                    <p style="width:100%;text-align: justify;color:black;">Se for comprador, receberá igualmente parte da comissão
-                                        imobiliária</p><br><br>
+                                        &emsp;Se for comprador, receberá igualmente parte da comissão
+                                        imobiliária<br><br>
                                     &emsp;Ao enviar o <b>link de convite</b> ao seu <b>círculo de amigos</b> será
                                     recompensado(a) com uma
                                     <b>percentagem da comissão</b> originada por cada transação realizada por eles.
