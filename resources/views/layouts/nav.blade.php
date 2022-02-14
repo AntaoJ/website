@@ -66,7 +66,7 @@
         <!-- Main Sidebar Container -->
         <aside class="main-sidebar sidebar-dark-primary elevation-4" >
             <!-- Brand Logo -->
-            <a href="/" class="brand-link" style="height: 50px;">
+            <a href="/" class="brand-link" style="height: 60px;">
                 <img src="img/20MediarWhite.png" alt="20Mediar Logo" class="brand-image" style="opacity: .8">
                 <span class="brand-text font-weight-light" ></span>
             </a>

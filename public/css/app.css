@@ -12013,7 +12013,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
   margin-left: 0.8rem;
   margin-right: 0.5rem;
   margin-top: -13px;
-  max-height: 50px;
+  max-height: 60px;
   width: auto;
 }
 .brand-link .brand-image-xs {
