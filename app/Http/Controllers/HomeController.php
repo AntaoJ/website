@@ -28,7 +28,7 @@ class HomeController extends Controller
     }
     public function faq()
     {
-        $faqs = Faq::all()->sortByDesc("titulo");;
+        $faqs = Faq::all()->sortBy("titulo");;
         return view('faq',[ 'faqs' => $faqs ]);
     }
     public function onde()
