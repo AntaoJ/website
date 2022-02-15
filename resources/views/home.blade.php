@@ -104,6 +104,10 @@
                                                     href="https://www.facebook.com/sharer/sharer.php?u=<?php echo url('/register?').http_build_query(['invite' => Auth::user()->uuid ], null, '&', PHP_QUERY_RFC3986);?>">
                                                     <span class="mdi mdi-facebook " style="font-size:400%;"></span>
                                                 </a>
+                                                <a class="share mx-auto" style="color:#3a5897 !important;"
+                                                    href="https://www.facebook.com/sharer/sharer.php?u=<?php echo url('/register?').http_build_query(['invite' => Auth::user()->uuid ], null, '&', PHP_QUERY_RFC3986);?>">
+                                                    <span class="mdi mdi-mail" style="font-size:400%;"></span>
+                                                </a>
                                                 <a class="share mx-auto"
                                                     style="color: #27ab00 !important;margin-top:11px;"
                                                     href="https://wa.me/?text=<?php echo url('/register?').http_build_query(['invite' => Auth::user()->uuid ], null, '&', PHP_QUERY_RFC3986);?>">
@@ -161,7 +165,8 @@
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Distrito<span class="text-danger">
                                                     *</span></label> <select name="distrito">
-                                                <option value="Null"></option>
+                                                    <option selected value="Selecionar"></option>
+                                                <option value="Lisboa">Lisboa</option>
                                             </select>
                                         </div>
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
@@ -237,7 +242,8 @@
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Distrito<span class="text-danger">
                                                     *</span></label> <select name="distrito">
-                                                <option value="Null"></option>
+                                                    <option selected value="Selecionar"></option>
+                                                <option value="Lisboa">Lisboa</option>
                                             </select>
                                         </div>
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
