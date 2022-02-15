@@ -138,7 +138,7 @@
                         </li>
                         <li class="nav-item">
                             <a href="https://www.20mediar.com/termos-e-condicoes" class="nav-link">
-                                <i class="nav-icon fa-solid fa-lock"></i>
+                                <i class="nav-icon fas fa-solid fa-lock"></i>
                                 <p>
                                     Privacidade
                                 </p>
