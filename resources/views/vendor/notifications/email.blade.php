@@ -48,7 +48,7 @@ Se não solicitou o pedido de alteração de password, não é necessário execu
 @isset($actionText)
 @slot('subcopy')
 @lang(
-    "Se estiver com problemas em aceder ao  \":actionText\" botão, copie e cole o link seguinte\n".
+    "Se estiver com problemas em aceder ao botão, copie e cole o link seguinte\n".
     'no seu navegador da internet:',
     [
         'actionText' => $actionText,
