@@ -11,7 +11,8 @@
 @endif
 
 {{-- Intro Lines --}}
-SOknkdkasdfdj
+Está a receber este e-mail porque recebemos um pedido de alteração da password para a sua conta.
+
 
 {{-- Action Button --}}
 @isset($actionText)
@@ -26,15 +27,14 @@ SOknkdkasdfdj
     }
 ?>
 @component('mail::button', ['url' => $actionUrl, 'color' => $color])
-{{ $actionText }}
+Alterar Password
 @endcomponent
 @endisset
 
 {{-- Outro Lines --}}
-@foreach ($outroLines as $line)
-{{ $line }}
+Este link irá expirar dentro de 60min.
 
-@endforeach
+Se não solicitou o pedido de alteração de password, não é necessário executar qualquer ação.
 
 {{-- Salutation --}}
 @if (! empty($salutation))
