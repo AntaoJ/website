@@ -90,15 +90,9 @@
                                         </div>
                                         <div class="container ml-10 mr-10">
                                             <div class="row ">
-
-
                                                 <a class="share mx-auto" style="color: #0077b5 !important;"
                                                     href="https://www.linkedin.com/sharing/share-offsite/?url=<?php echo url('/register?').http_build_query(['invite' => Auth::user()->uuid ], null, '&', PHP_QUERY_RFC3986);?>">
                                                     <span class="mdi mdi-linkedin" style="font-size:400%;"> </span>
-                                                </a>
-                                                <a class="share mx-auto" style="color:#1da1f2 !important;"
-                                                    href="https://twitter.com/intent/tweet?text=<?php echo url('/register?').http_build_query(['invite' => Auth::user()->uuid ], null, '&', PHP_QUERY_RFC3986);?>">
-                                                    <span class="mdi mdi-twitter " style="font-size:400%;"></span>
                                                 </a>
                                                 <a class="share mx-auto" style="color:#3a5897 !important;"
                                                     href="https://www.facebook.com/sharer/sharer.php?u=<?php echo url('/register?').http_build_query(['invite' => Auth::user()->uuid ], null, '&', PHP_QUERY_RFC3986);?>">
@@ -114,6 +108,10 @@
                                                     <img class=" m-1 social-icon hvr-grow"
                                                         style=" width:80px;height:80px"
                                                         src="{{ asset('img/whatsapp.svg') }}">
+                                                </a>
+                                                <a class="share mx-auto" style="color:#1da1f2 !important;"
+                                                    href="https://twitter.com/intent/tweet?text=<?php echo url('/register?').http_build_query(['invite' => Auth::user()->uuid ], null, '&', PHP_QUERY_RFC3986);?>">
+                                                    <span class="mdi mdi-twitter " style="font-size:400%;"></span>
                                                 </a>
                                             </div>
                                         </div>
