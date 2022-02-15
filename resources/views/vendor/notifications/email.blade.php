@@ -11,10 +11,7 @@
 @endif
 
 {{-- Intro Lines --}}
-@foreach ($introLines as $line)
-{{ $line }}
-
-@endforeach
+SOknkdkasdfdj
 
 {{-- Action Button --}}
 @isset($actionText)
@@ -43,7 +40,7 @@
 @if (! empty($salutation))
 {{ $salutation }}
 @else
-@lang('Cumprimentos,'),<br>
+@lang('Cumprimentos'),<br>
 {{ config('app.name') }}
 @endif
 
