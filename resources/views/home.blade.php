@@ -106,7 +106,7 @@
                                                 </a>
                                                 <a class="share mx-auto" style="color:#3a5897 !important;"
                                                     href="mailto:geral@20mediar.pt?body=https://www.facebook.com/sharer/sharer.php?u=<?php echo url('/register?').http_build_query(['invite' => Auth::user()->uuid ], null, '&', PHP_QUERY_RFC3986);?>">
-                                                    <span class="mdi mdi-mail" style="font-size:400%;"></span>
+                                                    <span class="mdi mdi-email" style="font-size:400%;"></span>
                                                 </a>
                                                 <a class="share mx-auto"
                                                     style="color: #27ab00 !important;margin-top:11px;"
