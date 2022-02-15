@@ -136,6 +136,14 @@
                                 </p>
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a href="https://www.20mediar.com/termos-e-condicoes" class="nav-link">
+                                <i class="nav-icon fa-solid fa-lock"></i>"></i>
+                                <p>
+                                    Privacidade
+                                </p>
+                            </a>
+                        </li>
 
                         <li class="nav-item">
                             <a href="{{ route('logout') }}" onclick="event.preventDefault();
