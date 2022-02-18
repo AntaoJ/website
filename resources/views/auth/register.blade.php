@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>20 Mediar</title>
+    <title>20Mediar - A imobiliária que pensa em ti</title>
     <meta charset="UTF-8">
 	<link rel="shortcut icon" href="https://20mediar.pt/img/20MediarPreto.jpeg" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
