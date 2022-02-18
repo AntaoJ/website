@@ -44,13 +44,19 @@
                         <input class="input100" type="text" name="local" placeholder="Localidade">
                     </div>
 
-                    <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                    <div class="wrap-input100 validate-input" data-validate="Insira um e-mail válido">
                         <input class="input100" type="text" name="email" placeholder="Email">
                     </div>
 
 
-                    <div class="wrap-input100 validate-input" data-validate="Password is required">
+                    <div class="wrap-input100 validate-input" data-validate="Password é necessária">
                         <input class="input100" type="password" name="password" placeholder="Password">
+
+                    </div>
+                    <div class="flex-sb-m w-full" style="margin-top:1rem;">
+                        <div>
+                            <a>A password tem de ter no mínimo 8 caracteres </a>
+                        </div>
 
                     </div>
                     <div class="wrap-input100 validate-input" data-validate="Password is required">
