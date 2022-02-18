@@ -53,12 +53,12 @@
                         <input class="input100" type="password" name="password" placeholder="Password">
 
                     </div>
-                    <div class="flex-sb-m w-full" style="margin-top:1rem;">
+                   <!-- <div class="flex-sb-m w-full" style="margin-top:1rem;">
                         <div>
                             <a>A password tem de ter no mínimo 8 caracteres </a>
                         </div>
 
-                    </div>
+                    </div>-->
                     <div class="wrap-input100 validate-input" data-validate="Password is required">
                         <input class="input100" type="password" name="password_confirmation"
                             placeholder="Confirmar Password">
