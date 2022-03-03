@@ -171,19 +171,6 @@
                                                 class="form-control-label px-3">Concelho<span class="text-danger">
                                                     *</span></label>
                                             <select name="concelho">
-
-
-
-                                                <optgroup label="Condiments" data-max-options="2">
-                                                    <option>Mustard</option>
-                                                    <option>Ketchup</option>
-                                                    <option>Relish</option>
-                                                </optgroup>
-                                                <optgroup label="Breads" data-max-options="2">
-                                                    <option>Plain</option>
-                                                    <option>Steamed</option>
-                                                    <option>Toasted</option>
-                                                </optgroup>
                                                 <option selected value="Selecionar"></option>
                                                 <option value="Amadora">Amadora</option>
                                                 <option value="Cascais">Cascais</option>
