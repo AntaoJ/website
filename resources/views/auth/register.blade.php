@@ -87,8 +87,9 @@
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header" style="border-bottom: none !important;">
-                                    <span class="login100-form-title p-b-20" style="font-weight:bold;">Com a 20Mediar todos ganham!</span>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <img src="img/20MediarPreto.png"
+                        style="height:6rem;display: block;margin-left: 20%;" class="img_logo" alt="">
+                                    <button style="margin-left: -53%;" type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
