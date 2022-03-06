@@ -279,7 +279,8 @@
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Natureza<span class="text-danger">
-                                                    *</span></label> <input type="text" id="fname" name="natureza">
+                                                    *</span></label>
+                                            
                                         </div>
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Tipologia<span class="text-danger">
@@ -352,7 +353,7 @@
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Freguesia<span class="text-danger">
                                                     *</span></label>
-                                                    <select name="freguesia">
+                                            <select name="freguesia">
                                                 <option selected value="Selecionar"></option>
                                                 <optgroup label="Amadora" data-max-options="1">
                                                     <option value="Mina de Água">Mina de Água</option>
@@ -442,7 +443,7 @@
                                                 </optgroup>
 
                                             </select>
-                                                </div>
+                                        </div>
                                     </div>
                                     <div class="row justify-content-between text-left">
                                         <div class="form-group col-sm-6 flex-column d-flex"> <label
