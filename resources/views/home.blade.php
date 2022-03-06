@@ -280,7 +280,19 @@
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Natureza<span class="text-danger">
                                                     *</span></label>
-                                            
+                                            <select name="natureza">
+                                                <option value="" data-default-option="true"></option>
+                                                <option value="Apartamentos">Apartamentos</option>
+                                                <option value="Armazéns">Armazéns</option>
+                                                <option value="Escritórios">Escritórios</option>
+                                                <option value="Garagens">Garagens</option>
+                                                <option value="Imóveis c/ negócio">Imóveis c/ negócio</option>
+                                                <option value="Lojas">Lojas</option>
+                                                <option value="Moradias">Moradias</option>
+                                                <option value="Prédios">Prédios</option>
+                                                <option value="Quintas e Herdades">Quintas e Herdades</option>
+                                                <option value="Terrenos">Terrenos</option>
+                                            </select>
                                         </div>
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Tipologia<span class="text-danger">
