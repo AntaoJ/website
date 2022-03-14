@@ -76,7 +76,7 @@
 
                     <div class="flex-sb-m w-full" style="margin-top:2rem;">
                         <div>
-                            <a data-toggle="modal" data-target="#modal" style="cursor: pointer;color:#6675DF">Conheça todas as
+                            <a data-toggle="modal" data-target="#modal" style="cursor: pointer;color:#6675DF">Conheça as
                                 vantagens de estar
                                 registado</a>
                         </div>

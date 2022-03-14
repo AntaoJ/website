@@ -196,7 +196,7 @@
                                                 </optgroup>
                                                 <optgroup label="Cascais" data-max-options="1">
                                                     <option value="Alcabideche">Alcabideche</option>
-                                                    <option value="Carcavelos e Paredes">Carcavelos e Paredes</option>
+                                                    <option value="Carcavelos e Paredes">Paredes</option>
                                                     <option value="Cascais e Estoril">Cascais e Estoril</option>
                                                     <option value="São Domingos de Rana">São Domingos de Rana</option>
                                                 </optgroup>
@@ -377,7 +377,7 @@
                                                 </optgroup>
                                                 <optgroup label="Cascais" data-max-options="1">
                                                     <option value="Alcabideche">Alcabideche</option>
-                                                    <option value="Carcavelos e Paredes">Carcavelos e Paredes</option>
+                                                    <option value="Carcavelos e Paredes">Paredes</option>
                                                     <option value="Cascais e Estoril">Cascais e Estoril</option>
                                                     <option value="São Domingos de Rana">São Domingos de Rana</option>
                                                 </optgroup>

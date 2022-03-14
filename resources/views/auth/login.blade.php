@@ -51,6 +51,8 @@
                     <div class="flex-sb-m w-full p-t-3 p-b-32">
                         <div>
                             <a href="/password/reset" class="txt1">
+                                *Pelo menos 8 carateres
+                                <br>
                                 Recuperar password?
                             </a>
                         </div>
@@ -74,8 +76,7 @@
                     </div>
                     <div class="flex-sb-m w-full">
                         <div>
-                            <a data-toggle="modal" data-target="#modal" style="cursor: pointer;color:#6675DF">Conheça
-                                todas as
+                            <a data-toggle="modal" data-target="#modal" style="cursor: pointer;color:#6675DF">Conheça as
                                 vantagens de estar
                                 registado</a>
                         </div>
