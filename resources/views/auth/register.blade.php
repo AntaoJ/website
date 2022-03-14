@@ -66,6 +66,8 @@
 
                     <div class="form-group" >
                         <input TYPE="hidden" id="invite" readonly  value="{{ app('request')->input('invite') }}" type="text" class="form-control" name="invite" autocomplete="invite">
+                        <p class="txt1">*Pelo menos 8 carateres
+                                </p>
                     </div> 
 
                     <div class="container-login100-form-btn">

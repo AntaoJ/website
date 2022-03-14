@@ -50,9 +50,10 @@
 
                     <div class="flex-sb-m w-full p-t-3 p-b-32">
                         <div>
+                            <p class="txt1">*Pelo menos 8 carateres
+                                </p>
+                            
                             <a href="/password/reset" class="txt1">
-                                *Pelo menos 8 carateres
-                                <br>
                                 Recuperar password?
                             </a>
                         </div>
