@@ -62,6 +62,7 @@
                     <div class="wrap-input100 validate-input" data-validate="Password is required">
                         <input class="input100" type="password" name="password_confirmation"
                             placeholder="Confirmar Password">
+                            
                     </div>
 
                     <div class="form-group" >
