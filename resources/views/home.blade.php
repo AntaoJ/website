@@ -178,6 +178,7 @@
                                                 <option value="Oeiras">Oeiras</option>
                                                 <option value="Odivelas">Odivelas</option>
                                                 <option value="Sintra">Sintra</option>
+                                                <option value="Madeira">Madeira</option>
                                             </select>
                                         </div>
 
