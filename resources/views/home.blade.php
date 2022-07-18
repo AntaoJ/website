@@ -273,6 +273,19 @@
                                                     <option value="Sintra">Sintra</option>
                                                 </optgroup>
 
+                                                <optgroup label="Madeira" data-max-options="1">
+                                                    <option value="Calheta">Calheta</option>
+                                                    <option value="Câmara de Lobos">Câmara de Lobos</option>
+                                                    <option value="Funchal">Funchal</option>
+                                                    <option value="Machico">Machico</option>
+                                                    <option value="Ponta do Sol">Ponta do Sol</option>
+                                                    <option value="Porto Moniz">Porto Moniz</option>
+                                                    <option value="Porto Santo">Porto Santo</option>
+                                                    <option value="Santa Cruz">Santa Cruz</option>
+                                                    <option value="Santana">Santana</option>
+                                                    <option value="São Vicente">São Vicente</option>
+                                                </optgroup>
+
                                             </select>
                                         </div>
                                     </div>
