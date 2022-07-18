@@ -373,13 +373,14 @@
                                                 <option value="Oeiras">Oeiras</option>
                                                 <option value="Odivelas">Odivelas</option>
                                                 <option value="Sintra">Sintra</option>
+                                                <option value="Madeira">Madeira</option>
                                             </select>
                                         </div>
 
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
                                                 class="form-control-label px-3">Freguesia<span class="text-danger">
                                                     *</span></label>
-                                            <select name="freguesia">
+                                                    <select name="freguesia">
                                                 <option selected value="Selecionar"></option>
                                                 <optgroup label="Amadora" data-max-options="1">
                                                     <option value="Mina de Água">Mina de Água</option>
@@ -466,6 +467,19 @@
                                                     <option value="São João das Lampas e Terrugem">São João das Lampas e
                                                         Terrugem</option>
                                                     <option value="Sintra">Sintra</option>
+                                                </optgroup>
+
+                                                <optgroup label="Madeira" data-max-options="1">
+                                                    <option value="Calheta">Calheta</option>
+                                                    <option value="Câmara de Lobos">Câmara de Lobos</option>
+                                                    <option value="Funchal">Funchal</option>
+                                                    <option value="Machico">Machico</option>
+                                                    <option value="Ponta do Sol">Ponta do Sol</option>
+                                                    <option value="Porto Moniz">Porto Moniz</option>
+                                                    <option value="Porto Santo">Porto Santo</option>
+                                                    <option value="Santa Cruz">Santa Cruz</option>
+                                                    <option value="Santana">Santana</option>
+                                                    <option value="São Vicente">São Vicente</option>
                                                 </optgroup>
 
                                             </select>
