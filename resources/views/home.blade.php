@@ -171,14 +171,28 @@
                                                 class="form-control-label px-3">Concelho<span class="text-danger">
                                                     *</span></label>
                                             <select name="concelho">
-                                                <option selected value="Selecionar"></option>
-                                                <option value="Amadora">Amadora</option>
-                                                <option value="Cascais">Cascais</option>
-                                                <option value="Lisboa">Lisboa</option>
-                                                <option value="Oeiras">Oeiras</option>
-                                                <option value="Odivelas">Odivelas</option>
-                                                <option value="Sintra">Sintra</option>
-                                                <option value="Madeira">Madeira</option>
+                                            <option selected value="Selecionar"></option>
+                                                <optgroup label="Portugal Continental" data-max-options="1">
+                                                    
+                                                    <option value="Amadora">Amadora</option>
+                                                    <option value="Cascais">Cascais</option>
+                                                    <option value="Lisboa">Lisboa</option>
+                                                    <option value="Oeiras">Oeiras</option>
+                                                    <option value="Odivelas">Odivelas</option>
+                                                    <option value="Sintra">Sintra</option>
+                                                </optgroup>
+                                                <optgroup label="Região Autónoma da Madeira" data-max-options="1">
+                                                    <option value="Calheta">Calheta</option>
+                                                    <option value="Câmara de Lobos">Câmara de Lobos</option>
+                                                    <option value="Funchal">Funchal</option>
+                                                    <option value="Machico">Machico</option>
+                                                    <option value="Ponta do Sol">Ponta do Sol</option>
+                                                    <option value="Porto Moniz">Porto Moniz</option>
+                                                    <option value="Porto Santo">Porto Santo</option>
+                                                    <option value="Santa Cruz">Santa Cruz</option>
+                                                    <option value="Santana">Santana</option>
+                                                    <option value="São Vicente">São Vicente</option>
+                                                </optgroup>
                                             </select>
                                         </div>
 
@@ -227,8 +241,6 @@
                                                     <option value="São Domingos de Benfica">São Domingos de Benfica
                                                     </option>
                                                     <option value="São Vicente">São Vicente</option>
-
-
                                                 </optgroup>
                                                 <optgroup label="Oeiras" data-max-options="1">
                                                     <option value="Algés">Algés</option>
@@ -274,16 +286,93 @@
                                                     <option value="Sintra">Sintra</option>
                                                 </optgroup>
 
-                                                <optgroup label="Madeira" data-max-options="1">
+                                                <optgroup label="Calheta" data-max-options="1">
+                                                    <option value="Arco da Calheta">Arco da Calheta</option>
                                                     <option value="Calheta">Calheta</option>
+                                                    <option value="Estreito da Calheta">Estreito da Calheta</option>
+                                                    <option value="Jardim do Mar">Jardim do Mar</option>
+                                                    <option value="Prazeres">Prazeres</option>
+                                                    <option value="Fajã da Ovelha">Fajã da Ovelha</option>
+                                                    <option value="Paúl do Mar">Paúl do Mar</option>
+                                                    <option value="Ponta do Pargo">Ponta do Pargo</option>
+                                                </optgroup>
+
+                                                <optgroup label="Câmara de Lobos" data-max-options="1">
                                                     <option value="Câmara de Lobos">Câmara de Lobos</option>
-                                                    <option value="Funchal">Funchal</option>
+                                                    <option value="Curral das Freiras">Curral das Freiras</option>
+                                                    <option value="Estreito de Câmara de Lobos">Estreito de Câmara de Lobos</option>
+                                                    <option value="Jardim da Serra">Jardim da Serra</option>
+                                                    <option value="Quinta Grande">Quinta Grande</option>
+                                                </optgroup>
+
+                                                <optgroup label="Funchal" data-max-options="1">
+                                                    <option value="Imaculado Coração de Maria">Imaculado Coração de Maria</option>
+                                                    <option value="Monte">Monte</option>
+                                                    <option value="Santo António">Santo António</option>
+                                                    <option value="São Gonçalo">São Gonçalo</option>
+                                                    <option value="São Martinho">São Martinho</option>
+                                                    <option value="São Pedro">São Pedro</option>
+                                                    <option value="São Roque">São Roque</option>
+                                                    <option value="Santa Luzia">Santa Luzia</option>
+                                                    <option value="Santa Maria Maior">Santa Maria Maior</option>
+                                                    <option value="Sé">Sé</option>
+                                                </optgroup>
+
+                                                <optgroup label="Machico" data-max-options="1">
+                                                    <option value="Água de Pena">Água de Pena</option>
+                                                    <option value="Caniçal">Caniçal</option>
                                                     <option value="Machico">Machico</option>
+                                                    <option value="Porto da Cruz">Porto da Cruz</option>
+                                                    <option value="Santo António da Serra">Santo António da Serra</option>
+                                                   
+                                                </optgroup>
+
+                                                <optgroup label="Ponta do Sol" data-max-options="1">
+                                                    <option value="Canhas">Canhas</option>
+                                                    <option value="Madalena do Mar">Madalena do Mar</option>
                                                     <option value="Ponta do Sol">Ponta do Sol</option>
+                                                </optgroup>
+
+                                                <optgroup label="Porto Moniz" data-max-options="1">
+                                                    <option value="Achadas da Cruz">Achadas da Cruz</option>
                                                     <option value="Porto Moniz">Porto Moniz</option>
-                                                    <option value="Porto Santo">Porto Santo</option>
+                                                    <option value="Ribeira da Janela">Ribeira da Janela</option>
+                                                    <option value="Seixal">Seixal</option>
+                                                </optgroup>
+
+                                                <optgroup label="Porto Santo" data-max-options="1">
+                                                    <option value="Vila Baleira">Vila Baleira</option>
+                                                </optgroup>
+
+                                                <optgroup label="Ribeira Brava" data-max-options="1">
+                                                    <option value="Campanário">Campanário</option>
+                                                    <option value="Ribeira Brava">Ribeira Brava</option>
+                                                    <option value="Serra d'Água">Serra d'Água</option>
+                                                    <option value="Tabua">Tabua</option>
+                                                </optgroup>
+
+                                                <optgroup label="Santa Cruz" data-max-options="1">
+                                                    <option value="Camacha">Camacha</option>
+                                                    <option value="Caniço">Caniço</option>
+                                                    <option value="Gaula">Gaula</option>
                                                     <option value="Santa Cruz">Santa Cruz</option>
+                                                    <option value="Santo António da Serra">Santo António da Serra</option>
+                                                   
+                                                </optgroup>
+
+                                                <optgroup label="Santana" data-max-options="1">
+                                                    <option value="Arco de São Jorge">Arco de São Jorge</option>
+                                                    <option value="Faial">Faial</option>
+                                                    <option value="Ilha">Ilha</option>
+                                                    <option value="São Jorge">São Jorge</option>
+                                                    <option value="São Roque do Faial">São Roque do Faial</option>
                                                     <option value="Santana">Santana</option>
+
+                                                </optgroup>
+
+                                                <optgroup label="São Vicente" data-max-options="1">
+                                                    <option value="Boaventura">Boaventura</option>
+                                                    <option value="Ponta Delgada">Ponta Delgada</option>
                                                     <option value="São Vicente">São Vicente</option>
                                                 </optgroup>
 
@@ -366,14 +455,28 @@
                                                 class="form-control-label px-3">Concelho<span class="text-danger">
                                                     *</span></label>
                                             <select name="concelho">
-                                                <option selected value="Selecionar"></option>
-                                                <option value="Amadora">Amadora</option>
-                                                <option value="Cascais">Cascais</option>
-                                                <option value="Lisboa">Lisboa</option>
-                                                <option value="Oeiras">Oeiras</option>
-                                                <option value="Odivelas">Odivelas</option>
-                                                <option value="Sintra">Sintra</option>
-                                                <option value="Madeira">Madeira</option>
+                                            <option selected value="Selecionar"></option>
+                                                <optgroup label="Portugal Continental" data-max-options="1">
+                                                    
+                                                    <option value="Amadora">Amadora</option>
+                                                    <option value="Cascais">Cascais</option>
+                                                    <option value="Lisboa">Lisboa</option>
+                                                    <option value="Oeiras">Oeiras</option>
+                                                    <option value="Odivelas">Odivelas</option>
+                                                    <option value="Sintra">Sintra</option>
+                                                </optgroup>
+                                                <optgroup label="Região Autónoma da Madeira" data-max-options="1">
+                                                    <option value="Calheta">Calheta</option>
+                                                    <option value="Câmara de Lobos">Câmara de Lobos</option>
+                                                    <option value="Funchal">Funchal</option>
+                                                    <option value="Machico">Machico</option>
+                                                    <option value="Ponta do Sol">Ponta do Sol</option>
+                                                    <option value="Porto Moniz">Porto Moniz</option>
+                                                    <option value="Porto Santo">Porto Santo</option>
+                                                    <option value="Santa Cruz">Santa Cruz</option>
+                                                    <option value="Santana">Santana</option>
+                                                    <option value="São Vicente">São Vicente</option>
+                                                </optgroup>
                                             </select>
                                         </div>
 
@@ -422,8 +525,6 @@
                                                     <option value="São Domingos de Benfica">São Domingos de Benfica
                                                     </option>
                                                     <option value="São Vicente">São Vicente</option>
-
-
                                                 </optgroup>
                                                 <optgroup label="Oeiras" data-max-options="1">
                                                     <option value="Algés">Algés</option>
@@ -469,16 +570,93 @@
                                                     <option value="Sintra">Sintra</option>
                                                 </optgroup>
 
-                                                <optgroup label="Madeira" data-max-options="1">
+                                                <optgroup label="Calheta" data-max-options="1">
+                                                    <option value="Arco da Calheta">Arco da Calheta</option>
                                                     <option value="Calheta">Calheta</option>
+                                                    <option value="Estreito da Calheta">Estreito da Calheta</option>
+                                                    <option value="Jardim do Mar">Jardim do Mar</option>
+                                                    <option value="Prazeres">Prazeres</option>
+                                                    <option value="Fajã da Ovelha">Fajã da Ovelha</option>
+                                                    <option value="Paúl do Mar">Paúl do Mar</option>
+                                                    <option value="Ponta do Pargo">Ponta do Pargo</option>
+                                                </optgroup>
+
+                                                <optgroup label="Câmara de Lobos" data-max-options="1">
                                                     <option value="Câmara de Lobos">Câmara de Lobos</option>
-                                                    <option value="Funchal">Funchal</option>
+                                                    <option value="Curral das Freiras">Curral das Freiras</option>
+                                                    <option value="Estreito de Câmara de Lobos">Estreito de Câmara de Lobos</option>
+                                                    <option value="Jardim da Serra">Jardim da Serra</option>
+                                                    <option value="Quinta Grande">Quinta Grande</option>
+                                                </optgroup>
+
+                                                <optgroup label="Funchal" data-max-options="1">
+                                                    <option value="Imaculado Coração de Maria">Imaculado Coração de Maria</option>
+                                                    <option value="Monte">Monte</option>
+                                                    <option value="Santo António">Santo António</option>
+                                                    <option value="São Gonçalo">São Gonçalo</option>
+                                                    <option value="São Martinho">São Martinho</option>
+                                                    <option value="São Pedro">São Pedro</option>
+                                                    <option value="São Roque">São Roque</option>
+                                                    <option value="Santa Luzia">Santa Luzia</option>
+                                                    <option value="Santa Maria Maior">Santa Maria Maior</option>
+                                                    <option value="Sé">Sé</option>
+                                                </optgroup>
+
+                                                <optgroup label="Machico" data-max-options="1">
+                                                    <option value="Água de Pena">Água de Pena</option>
+                                                    <option value="Caniçal">Caniçal</option>
                                                     <option value="Machico">Machico</option>
+                                                    <option value="Porto da Cruz">Porto da Cruz</option>
+                                                    <option value="Santo António da Serra">Santo António da Serra</option>
+                                                   
+                                                </optgroup>
+
+                                                <optgroup label="Ponta do Sol" data-max-options="1">
+                                                    <option value="Canhas">Canhas</option>
+                                                    <option value="Madalena do Mar">Madalena do Mar</option>
                                                     <option value="Ponta do Sol">Ponta do Sol</option>
+                                                </optgroup>
+
+                                                <optgroup label="Porto Moniz" data-max-options="1">
+                                                    <option value="Achadas da Cruz">Achadas da Cruz</option>
                                                     <option value="Porto Moniz">Porto Moniz</option>
-                                                    <option value="Porto Santo">Porto Santo</option>
+                                                    <option value="Ribeira da Janela">Ribeira da Janela</option>
+                                                    <option value="Seixal">Seixal</option>
+                                                </optgroup>
+
+                                                <optgroup label="Porto Santo" data-max-options="1">
+                                                    <option value="Vila Baleira">Vila Baleira</option>
+                                                </optgroup>
+
+                                                <optgroup label="Ribeira Brava" data-max-options="1">
+                                                    <option value="Campanário">Campanário</option>
+                                                    <option value="Ribeira Brava">Ribeira Brava</option>
+                                                    <option value="Serra d'Água">Serra d'Água</option>
+                                                    <option value="Tabua">Tabua</option>
+                                                </optgroup>
+
+                                                <optgroup label="Santa Cruz" data-max-options="1">
+                                                    <option value="Camacha">Camacha</option>
+                                                    <option value="Caniço">Caniço</option>
+                                                    <option value="Gaula">Gaula</option>
                                                     <option value="Santa Cruz">Santa Cruz</option>
+                                                    <option value="Santo António da Serra">Santo António da Serra</option>
+                                                   
+                                                </optgroup>
+
+                                                <optgroup label="Santana" data-max-options="1">
+                                                    <option value="Arco de São Jorge">Arco de São Jorge</option>
+                                                    <option value="Faial">Faial</option>
+                                                    <option value="Ilha">Ilha</option>
+                                                    <option value="São Jorge">São Jorge</option>
+                                                    <option value="São Roque do Faial">São Roque do Faial</option>
                                                     <option value="Santana">Santana</option>
+
+                                                </optgroup>
+
+                                                <optgroup label="São Vicente" data-max-options="1">
+                                                    <option value="Boaventura">Boaventura</option>
+                                                    <option value="Ponta Delgada">Ponta Delgada</option>
                                                     <option value="São Vicente">São Vicente</option>
                                                 </optgroup>
 
