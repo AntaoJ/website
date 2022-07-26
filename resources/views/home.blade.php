@@ -449,6 +449,7 @@
                                                     *</span></label> <select name="distrito">
                                                 <option selected value="Selecionar"></option>
                                                 <option value="Lisboa">Lisboa</option>
+                                                <option value="RA Madeira">RA Madeira</option>
                                             </select>
                                         </div>
                                         <div class="form-group col-sm-4 flex-column d-flex"> <label
